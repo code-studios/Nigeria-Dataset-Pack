@@ -1,0 +1,30 @@
+{
+  "scenario1": {
+    "scenario": "Scenario 1",
+    "k": 37,
+    "network_length_km": 5105.842954573954,
+    "coverage_100km_pct": 100.0,
+    "pop_coverage_100km_pct": 100.0,
+    "avg_distance_to_station_km": 0.0,
+    "max_distance_to_station_km": 0.0,
+    "redundancy_count": 10,
+    "gini_coefficient": 0.0
+  },
+  "scenario2_best": {
+    "scenario": "Scenario 2 (k=15, \u03bb=0.0)",
+    "k": 15,
+    "network_length_km": 3616.6281301099953,
+    "coverage_100km_pct": 62.16216216216216,
+    "pop_coverage_100km_pct": 64.38549417266266,
+    "avg_distance_to_station_km": 74.6235928121442,
+    "max_distance_to_station_km": 211.3549075612606,
+    "redundancy_count": 0,
+    "cost_per_capita": 0.0005120093371834008
+  },
+  "comparison": {
+    "network_length_reduction_km": 1489.2148244639584,
+    "network_length_reduction_pct": 29.16687484737224,
+    "coverage_loss_pct": 37.83783783783784,
+    "recommendation": "Use corrected values in all Stage 2 reporting"
+  }
+}

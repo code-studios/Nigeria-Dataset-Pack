@@ -1,0 +1,16 @@
+{
+  "k_values": [
+    15,
+    20,
+    25
+  ],
+  "min_station_spacing_km": 80,
+  "max_distance_to_station_km": 150,
+  "mandatory_stations": [
+    "Lagos"
+  ],
+  "min_stations_per_zone": 1,
+  "neighbor_redundancy_penalty": 100,
+  "objective": "minimize_weighted_cost",
+  "description": "Strategic placement with redundancy control"
+}

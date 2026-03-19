@@ -1,0 +1,232 @@
+====================================================================
+  PROVENANCE NOTES
+  Nigeria Dataset Collection
+  Compiled by : Eni Solomon Laughter — Chang'an University
+  Research lab: TRAMSYS LAB
+  Date        : 2026-03-18  13:12:02
+====================================================================
+
+PURPOSE
+  This file documents the origin, confidence level, and
+  any known limitations for each dataset in the collection.
+  Datasets are rated on a 3-tier source confidence scale:
+
+    ✓ CONFIRMED   — Source is known, citable, and verifiable.
+    ~ PROBABLE    — Source is likely identified but not
+                    fully confirmed (e.g. platform known,
+                    exact URL or edition unclear).
+    ? UNCONFIRMED — Source is uncertain or not traceable.
+                    Data values may be estimated or synthetic.
+
+  Users citing these datasets in academic publications should
+  verify unconfirmed sources independently before citing.
+
+--------------------------------------------------------------------
+  DATASET-BY-DATASET PROVENANCE
+--------------------------------------------------------------------
+
+01  Nigeria State Unemployment Rate
+    File : nigeria_state_unemployment_rate.json
+    ··················································
+    Confidence : ~ PROBABLE
+    Likely source: An Africa-focused open data portal.
+      Candidate sources (to verify):
+        - World Bank Open Data (data.worldbank.org)
+        - Knoema Africa data portal
+        - National Bureau of Statistics Nigeria
+          (nigerianstat.gov.ng)
+        - Our World in Data (ourworldindata.org)
+    Note : Data values are consistent with NBS estimates.
+           The exact source URL was not retained at time
+           of collection. Verify against NBS Labour Force
+           Survey before citing in publications.
+    Year : Not specified in source file — likely 2020–2022
+           based on value ranges.
+
+02  Nigeria State Sociodemographic and Transport Indicators
+    File : nigeria_state_sociodemographic_transport_indicators.json
+    ··················································
+    Confidence : ✓ CONFIRMED (per field)
+    Sources cited within each record's "sources" field:
+      - NBS NLSS 2020   : National Bureau of Statistics,
+                          Nigeria Living Standards Survey
+      - NDHS 2018       : Nigeria Demographic and Health
+                          Survey 2018 (DHS Program)
+      - CIA Ethnic Dist.: CIA World Factbook ethnic
+                          fractionalisation estimates
+      - FRSC Q4 2023    : Federal Road Safety Corps,
+                          Q4 2023 Road Condition Report
+    Note : Each indicator comes from a different survey
+           year. Not a consistent cross-sectional snapshot.
+           Road condition estimates may not cover all road
+           categories uniformly.
+
+03  Nigeria City Coordinates
+    File : nigeria_city_coordinates.json
+    ··················································
+    Confidence : ? UNCONFIRMED
+    Stated source: Open source / GitHub repository.
+    The exact repository and author are unknown — the
+    file was obtained from a GitHub source that was not
+    bookmarked at time of collection.
+    Note : Coordinate format and precision are consistent
+           with GeoNames.org export format (geonames.org),
+           which is a plausible original source. Values
+           should be verified against official NGA
+           (National Geospatial-Intelligence Agency) or
+           NBS boundary data for precision-sensitive work.
+
+04  Nigeria State Dependency Ratio
+    File : nigeria_state_dependency_ratio.json
+    ··················································
+    Confidence : ✓ CONFIRMED
+    Source : Nigeria Living Standards Survey (NLSS)
+             2018/2019, National Bureau of Statistics
+             (NBS) Nigeria.
+    URL    : https://nigerianstat.gov.ng
+    Note   : Dependency ratio definition follows NBS
+             methodology; may differ from World Bank
+             or ILO conventions.
+
+05  Nigeria Cities Data
+    Files: nigeria_cities_data.xlsx + state_json_files/
+    ··················································
+    Confidence : ? UNCONFIRMED
+    Stated source: Open source / GitHub repository.
+    As with Dataset 03, the exact GitHub repository and
+    author are unknown.
+    Note : Data structure (name, what, region, country,
+           lat, long, elev ft, pop est) is consistent
+           with a GeoNames.org bulk export. Population
+           estimates do not carry a year reference and
+           likely reflect estimates from different periods
+           across states. Zero values in "pop est" may
+           indicate missing data rather than uninhabited
+           settlements.
+    Missing: Kwara and Rivers state files were not present
+             in the source folder at time of collection.
+
+06  Nigeria LGA Population and Socioeconomic Indicators
+    File : nigeria_lga_population_socioeconomic_indicators.csv
+    ··················································
+    Confidence : ? UNCONFIRMED — treat as estimates
+    Origin : Received via WhatsApp share.
+             Original filename: DOC-20241218-WA0007..csv
+             Sender and original compiler unknown.
+    Note   : Data values are broadly consistent with NBS
+             and NDHS estimates but have NOT been verified
+             against any published official dataset.
+             The decimal precision on some fields and the
+             perfectly balanced 200-row structure suggest
+             this may be a model-estimated or synthetically
+             generated dataset rather than field-collected
+             survey data. Users should treat all values as
+             indicative estimates and cross-check against
+             official NBS sources before citing.
+    Coverage: Only 5 of 36 states — not nationally
+              representative.
+
+07  Nigeria LGA Population by State
+    File : nigeria_lga_population_by_state.xlsx
+    ··················································
+    Confidence : ~ PROBABLE
+    Author  : JAMIU Bdulhafeez
+    Company : ECOBANK TRANSNATIONAL INCORPORATED
+    Note    : The population year / census reference is
+              not stated in the source file. Values are
+              consistent with NBS 2006 census projections
+              but have not been independently verified
+              against a published NBS release. Bauchi
+              state data was absent from source.
+              Original file was in wide side-by-side
+              format; reshaped to long format for this
+              release.
+
+08  Nigeria Inter-City Travel and Traffic Data
+    File : nigeria_intercity_travel_traffic_data.csv
+    ··················································
+    Confidence : ? UNCONFIRMED — likely synthetic
+    Origin : Source unknown. No author, URL, or agency
+             attribution is available.
+    Evidence of synthetic generation:
+      1. Road length values have high floating-point
+         precision (e.g. 772.2622439999999 km) inconsistent
+         with measured road data.
+      2. The 896 records represent a near-perfectly
+         balanced 9×9 city matrix with ~11 observations
+         per OD pair — unlikely in empirical data.
+      3. Weather categories (Clear/Cloudy/Rainy/Foggy)
+         appear randomly distributed rather than tied to
+         any meteorological record.
+    Use guidance: Suitable for methodological illustration,
+    model testing, and sensitivity analysis. Do NOT cite
+    as empirical traffic data in publications without
+    independent verification against FRSC, FMWORKS, or
+    Google Maps Distance Matrix data.
+
+09  Railway Station Optimization Results
+    Sub-folders: 01–11 (see README_DATASET_INDEX.txt)
+    ··················································
+    Confidence : ✓ CONFIRMED (derived/computed)
+    All optimization outputs were produced from the above
+    raw datasets using Python scripts (available on request
+    from the maintainer). Key derivation notes:
+
+    Distance matrix
+      Primarily Haversine great-circle distances multiplied
+      by a 1.3 road correction factor. Where actual road
+      distances were available from Dataset 08, those values
+      were used instead. Check distance_type_matrix.csv
+      to identify which values are "actual" vs "estimated".
+
+    Demand matrices
+      Synthetic — computed via gravity model from population
+      and distance data. Not observed passenger counts.
+
+    Corrected metrics
+      Two systematic errors were found in the original
+      optimization run and corrected in stage2_issue_audit.py:
+        1. Network length was computed as sum of all
+           pairwise distances instead of MST edges only.
+        2. Scenario 1 avg distance to station was
+           incorrectly non-zero.
+      Use corrected_metrics.json (Group 07) for all
+      publication figures.
+
+--------------------------------------------------------------------
+  GENERAL GUIDANCE FOR PUBLICATION USE
+--------------------------------------------------------------------
+
+  Before submitting any work citing these datasets:
+
+  1. VERIFIED SOURCES (Datasets 02, 04):
+     Cite the NBS/NDHS/FRSC sources directly as listed
+     in the dataset description files. No further
+     verification required.
+
+  2. PROBABLE SOURCES (Datasets 01, 07):
+     Attempt to locate and cite the original source.
+     Suggested approach:
+       - Search NBS Nigeria portal for matching values
+       - Search World Bank Open Data for Nigeria indicators
+       - If unlocatable, note as "Source unverified;
+         values consistent with NBS estimates"
+
+  3. UNCONFIRMED SOURCES (Datasets 03, 05, 06, 08):
+     Do not cite as authoritative data sources. Instead:
+       - Use only as inputs for methodological illustration
+       - Clearly state in the paper: "indicative estimates"
+         or "model-generated data"
+       - For Datasets 03 & 05: cross-check coordinates
+         against GeoNames.org or NGA boundary files
+       - For Dataset 08: replace with FRSC or Google Maps
+         Distance Matrix data for empirical validation
+
+  4. OPTIMIZATION RESULTS (Dataset 09):
+     Fully reproducible from the provided Python scripts.
+     Cite as computed outputs; reference the methodology
+     paper for the algorithmic details.
+
+====================================================================
+  END OF PROVENANCE NOTES
+====================================================================

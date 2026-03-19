@@ -1,0 +1,63 @@
+================================================================
+  DATASET DESCRIPTION
+  Files   : scenario1_results.json
+            scenario1_mst_edges.csv
+  Group   : 06 — Scenario 1 Results (Complete Coverage)
+  Created : 2026-03-18  12:39:44
+================================================================
+
+TITLE
+  Scenario 1: Complete Coverage Baseline — Minimum Spanning
+  Tree Network for All 37 Nigerian State Capitals
+
+OVERVIEW
+  Results of the complete-coverage baseline optimization
+  (Scenario 1), in which all 37 state capitals receive a
+  station and the network is minimized using a Minimum
+  Spanning Tree (MST) algorithm.
+
+HOW THEY WERE GENERATED
+  scipy.sparse.csgraph.minimum_spanning_tree() was applied
+  to the 37×37 distance matrix to compute the MST.
+  Network length = sum of all MST edge weights.
+  Coverage = 100% by construction (all capitals = stations).
+  Redundancy = pairs of stations < 100 km apart in the MST.
+
+  NOTE: An earlier version of this analysis contained
+  incorrect network length values (summing all pairwise
+  distances instead of MST edges only). The corrected
+  values are stored in corrected_metrics.json (Group 07)
+  and should be used for all reporting purposes.
+
+PURPOSE
+  Establishes the cost and coverage upper bound against
+  which Scenario 2 optimized configurations are compared.
+  Provides the full 37-station baseline MST edge list for
+  map visualisation and route-by-route analysis.
+
+VIEWING ORDER
+  Dataset #6 — review after constraints (Group 05).
+  This is the baseline; review before Scenario 2 (Group 07).
+
+KEY RESULTS
+  Stations        : 37
+  MST Edges       : 36
+  Network Length  : 5,105.8 km  (corrected: 5,105.8 km — see note above)
+  Pop. Coverage   : 100.0%
+  Redundant pairs : 10
+  Longest route   : 1592.3 km
+                    (6.37 hrs @ 250 km/h)
+
+SCHEMA — scenario1_mst_edges.csv
+  from          Origin capital city
+  to            Destination capital city
+  distance_km   Edge distance in km
+
+LICENCE
+  TRAMSYS LAB
+
+CONTACT / MAINTAINER
+  Eni Solomon Laughter - Chang'an University
+================================================================
+  END OF DESCRIPTION
+================================================================

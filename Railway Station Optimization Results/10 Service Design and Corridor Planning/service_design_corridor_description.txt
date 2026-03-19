@@ -1,0 +1,134 @@
+================================================================
+  DATASET DESCRIPTION
+  Files   : service_patterns.csv
+            service_routes_detailed.csv
+            station_utilization.csv
+            service_design_summary.json
+            s2_3train_routes_preliminary.json
+            corridor_plan.json
+            corridor_routes.csv
+            comparison_summary.json
+  Group   : 10 — Service Design and Corridor Planning
+  Created : 2026-03-18  12:51:16
+================================================================
+
+TITLE
+  Nigeria HSR Service Pattern Design, 3-Train Route
+  Allocation, and Strategic Corridor Planning
+
+OVERVIEW
+  Eight datasets representing three distinct layers of service
+  design work built on top of the station optimization results:
+    Layer A — S1 network path-based service patterns
+              (network_path.py)
+    Layer B — S2 15-station 3-train zone-allocated routes,
+              preliminary version (network_path2.py)
+    Layer C — Strategic 5-corridor plan for S1 network
+              (route.py)
+
+  NOTE: The FINAL authoritative 3-train OD-locked service
+  design is in Group 08 (train_service_design.json). The
+  file s2_3train_routes_preliminary.json in this group is
+  an earlier zone-greedy TSP version — retained for
+  methodological comparison.
+
+HOW EACH FILE WAS GENERATED
+
+  service_patterns.csv  (15 rows)  (network_path.py)
+    Automated path-based service pattern design for S1's
+    full 37-station MST network. For each of the top 15
+    demand OD pairs + 5 strategic pairs, NetworkX shortest
+    paths were computed on the MST graph. Stopping rules
+    were then applied by distance and demand tier:
+      EXPRESS     : distance > 500 km AND demand > 1e7
+      SEMI-EXPRESS: distance > 300 km
+      SMART       : distance > 150 km
+      LOCAL       : distance ≤ 150 km
+    Columns: service_id, origin, destination, service_type,
+    demand, distance_km, full_path, stops, num_stops,
+    skipped_stations, num_skipped, total_time_hours,
+    avg_speed_kmh, daily_frequency.
+
+  service_routes_detailed.csv  (25 rows)  (network_path.py)
+    Segment-by-segment breakdown of every stop sequence in
+    service_patterns.csv. One row per consecutive station
+    pair per service. Columns: service_id, sequence, from,
+    to, is_origin, is_destination.
+
+  station_utilization.csv  (13 rows)  (network_path.py)
+    Count of how many designed services stop at each station,
+    identifying under-utilised stations (<2 services).
+    Top station: Ikeja (7 services).
+
+  service_design_summary.json  (network_path.py)
+    Aggregate statistics: 15 total services,
+    122 total daily trains,
+    avg 2.7 stops/service,
+    avg 1.1 hours/service,
+    13 stations served.
+    Service type breakdown:
+      EXPRESS: 1  |  SEMI-EXPRESS: 3
+      SMART: 3  |  LOCAL: 8
+
+  s2_3train_routes_preliminary.json  (network_path2.py)
+    PRELIMINARY 3-train route design for S2's 15-station
+    network using zone-pair allocation + greedy nearest-
+    neighbour TSP. Stations were grouped by geopolitical
+    zone, then 2 zones assigned per train. Routes were
+    computed as circular TSP tours within each train's
+    allocated stations. This is NOT the final design —
+    the final OD-locked version is in Group 08.
+    Trains: Train 1: ['South-West', 'South-South'], Train 2: ['North-West', 'North-East'], Train 3: ['North-Central', 'South-East']
+
+  corridor_plan.json  (route.py)
+    Strategic 5-corridor plan for the S1 network, defining
+    major intercity HSR routes based on geographic and
+    economic logic. For each corridor: origin, destination,
+    intermediate stops, zones served, distance, travel time,
+    and recommended service frequency. Corridors:
+      1. Lagos–Abuja–Kano (North-South Spine)
+      2. Lagos–Port Harcourt (Southern Coastal)
+      3. Abuja–Port Harcourt (Central-South)
+      4. Kano–Maiduguri (Northern Belt)
+      5. Enugu–Calabar (Eastern)
+
+  corridor_routes.csv  (13 rows)  (route.py)
+    Segment-level breakdown of all 5 corridors. One row per
+    consecutive city pair per corridor with distances.
+    Columns: corridor, from, to, distance_km.
+
+  comparison_summary.json  (step2_1_2.py)
+    Compact S1 vs S2 comparison produced at the end of the
+    initial optimization run (before full evaluation in
+    step2_3_5.py). Records k, network_length_km, coverage_pct,
+    and redundancy for both scenarios.
+    NOTE: Use corrected_metrics.json (Group 07) for final
+    authoritative figures; this file reflects uncorrected
+    intermediate values.
+
+PURPOSE
+  Documents the full service design exploration beyond
+  station placement — demonstrating how the optimized
+  networks can be operationalised with concrete train
+  services and strategic corridor priorities.
+
+VIEWING ORDER
+  Dataset #10 — review after Groups 06–08 (scenario results
+  and final train design). Recommended sub-order:
+    1. corridor_plan.json          — strategic 5-corridor plan
+    2. corridor_routes.csv         — corridor segment details
+    3. service_patterns.csv        — S1 service pattern sweep
+    4. service_routes_detailed.csv — segment-level routes
+    5. station_utilization.csv     — station service counts
+    6. service_design_summary.json — aggregate summary
+    7. s2_3train_routes_preliminary.json — early S2 design
+    8. comparison_summary.json     — quick S1/S2 summary
+
+LICENCE
+  TRAMSYS LAB
+
+CONTACT / MAINTAINER
+  Eni Solomon Laughter - Chang'an University
+================================================================
+  END OF DESCRIPTION
+================================================================

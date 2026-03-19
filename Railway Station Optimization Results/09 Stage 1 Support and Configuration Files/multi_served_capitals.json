@@ -1,0 +1,172 @@
+[
+  {
+    "state": "Jigawa",
+    "capital": "Dutse",
+    "can_be_served_by": 2
+  },
+  {
+    "state": "Kaduna",
+    "capital": "Tudun Wada",
+    "can_be_served_by": 3
+  },
+  {
+    "state": "Kano",
+    "capital": "Kano",
+    "can_be_served_by": 2
+  },
+  {
+    "state": "Katsina",
+    "capital": "Funtua",
+    "can_be_served_by": 3
+  },
+  {
+    "state": "Sokoto",
+    "capital": "Sokoto",
+    "can_be_served_by": 2
+  },
+  {
+    "state": "Zamfara",
+    "capital": "Jenyau",
+    "can_be_served_by": 2
+  },
+  {
+    "state": "Adamawa",
+    "capital": "Yola",
+    "can_be_served_by": 2
+  },
+  {
+    "state": "Bauchi",
+    "capital": "Bauchi",
+    "can_be_served_by": 3
+  },
+  {
+    "state": "Gombe",
+    "capital": "Gombe",
+    "can_be_served_by": 4
+  },
+  {
+    "state": "Taraba",
+    "capital": "Jalingo",
+    "can_be_served_by": 2
+  },
+  {
+    "state": "Benue",
+    "capital": "Chigo",
+    "can_be_served_by": 2
+  },
+  {
+    "state": "FCT",
+    "capital": "Abuja",
+    "can_be_served_by": 4
+  },
+  {
+    "state": "Kogi",
+    "capital": "Lokoja",
+    "can_be_served_by": 6
+  },
+  {
+    "state": "Nasarawa",
+    "capital": "Lafia",
+    "can_be_served_by": 2
+  },
+  {
+    "state": "Niger",
+    "capital": "Bida",
+    "can_be_served_by": 4
+  },
+  {
+    "state": "Plateau",
+    "capital": "Jos",
+    "can_be_served_by": 4
+  },
+  {
+    "state": "Ekiti",
+    "capital": "Ado-Ekiti",
+    "can_be_served_by": 8
+  },
+  {
+    "state": "Lagos",
+    "capital": "Ikeja",
+    "can_be_served_by": 4
+  },
+  {
+    "state": "Ogun",
+    "capital": "Abeokuta",
+    "can_be_served_by": 4
+  },
+  {
+    "state": "Ondo",
+    "capital": "Ondo",
+    "can_be_served_by": 8
+  },
+  {
+    "state": "Oyo",
+    "capital": "Ibadan",
+    "can_be_served_by": 6
+  },
+  {
+    "state": "Abia",
+    "capital": "Umuahia",
+    "can_be_served_by": 9
+  },
+  {
+    "state": "Anambra",
+    "capital": "Awka",
+    "can_be_served_by": 10
+  },
+  {
+    "state": "Ebonyi",
+    "capital": "Abakaliki",
+    "can_be_served_by": 7
+  },
+  {
+    "state": "Enugu",
+    "capital": "Enugu",
+    "can_be_served_by": 10
+  },
+  {
+    "state": "Imo",
+    "capital": "Owerri",
+    "can_be_served_by": 10
+  },
+  {
+    "state": "Akwa Ibom",
+    "capital": "Uyo",
+    "can_be_served_by": 8
+  },
+  {
+    "state": "Bayelsa",
+    "capital": "Yenagoa",
+    "can_be_served_by": 7
+  },
+  {
+    "state": "Cross River",
+    "capital": "Calabar",
+    "can_be_served_by": 6
+  },
+  {
+    "state": "Delta",
+    "capital": "Boji-Boji",
+    "can_be_served_by": 10
+  },
+  {
+    "state": "Edo",
+    "capital": "Benin City",
+    "can_be_served_by": 7
+  },
+  {
+    "state": "Rivers",
+    "capital": "Port Harcourt",
+    "can_be_served_by": 8
+  },
+  {
+    "state": "Kwara",
+    "capital": "Ilorin",
+    "can_be_served_by": 5
+  },
+  {
+    "state": "Osun",
+    "capital": "Oshogbo",
+    "can_be_served_by": 6
+  }
+]

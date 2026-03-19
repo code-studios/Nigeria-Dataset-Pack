@@ -1,0 +1,115 @@
+================================================================
+  DATASET DESCRIPTION
+  Files   : 9 × PNG images  +  map_summary.json
+  Group   : 11 — Visualizations and Charts
+  Created : 2026-03-18  12:51:16
+================================================================
+
+TITLE
+  Nigeria HSR Station Optimization — Maps and Analytical
+  Charts (300 DPI Publication-Quality Figures)
+
+OVERVIEW
+  Nine publication-quality figures (300 DPI PNG) produced
+  across the optimization study, covering geographic network
+  maps, coverage comparison, corridor routing, and analytical
+  performance charts. All figures use WGS84 coordinates
+  plotted on a latitude/longitude axis.
+
+HOW THEY WERE GENERATED
+
+  ── GEOGRAPHIC MAPS (bonus.py) ─────────────────────────
+
+  map1_scenario1_network.png
+    Full MST network for Scenario 1 (37 stations, all state
+    capitals). Node size scaled to population. Edge colour
+    by distance: green <100 km, orange 100–200 km, red >200 km.
+    Title: "Scenario 1: Complete HSR Network (37 Stations,
+    5,106 km)"
+
+  map2_scenario2_network.png
+    Optimized 15-station S2 network. Blue filled nodes =
+    HSR stations (yellow border), grey nodes = non-station
+    capitals. Dashed lines = access connections from non-
+    station capitals to their nearest station. Solid dark
+    blue lines = MST station-to-station routes.
+    Title: "Scenario 2: Optimized HSR Network (15 Stations,
+    3,617 km)"
+
+  map3_coverage_comparison.png
+    Side-by-side coverage maps. Left: S1 with 100 km service
+    radius circles around all 37 stations. Right: S2 with
+    100 km circles around 15 stations only; red ×
+    markers = uncovered capitals.
+    Title: "Coverage Comparison: 100km Service Radius"
+
+  ── CORRIDOR MAP (route.py) ────────────────────────────
+
+  map4_corridor_routes.png
+    Five strategic corridors overlaid on all 37 capital
+    locations. Each corridor in a distinct colour. Major
+    hubs (Lagos, Abuja, Kano, Port Harcourt, Ibadan, Kaduna,
+    Enugu) marked with yellow stars and bold labels.
+    Title: "Nigeria HSR: Major Corridor Routes"
+
+  ── ANALYTICAL CHARTS (step2_6_7.py) ──────────────────
+
+  chart1_k_vs_coverage_cost.png
+    Dual-axis line chart: left axis = coverage % by k,
+    right axis = network length (km) by k. Shows the
+    coverage–cost trade-off across k ∈ {15, 20, 25}.
+
+  chart2_lambda_vs_redundancy.png
+    Line chart showing how the redundancy penalty weight λ
+    affects average redundant station pairs across all
+    k values. Demonstrates penalty term effectiveness.
+
+  chart3_scenario_comparison.png
+    Grouped bar chart comparing S1 vs S2 on three metrics:
+    network length, population coverage, and redundancy.
+    Uses uncorrected values from step2_6_7.py — refer to
+    corrected_metrics.json (Group 07) for final figures.
+
+  chart4_zone_distribution.png
+    Bar chart of state capital count per geopolitical zone.
+    Shows the 6-zone distribution used in the zone-balance
+    constraint (minimum 1 station per zone in Scenario 2).
+
+  chart5_population_vs_economic.png
+    Scatter plot of population (x) vs economic proxy score
+    (y) for all 37 capitals, colour-coded by economic proxy.
+    Top 5 capitals by economic proxy are labelled.
+
+PURPOSE
+  Provide ready-to-use figures for the manuscript. Maps
+  illustrate spatial network topology and coverage; charts
+  support the quantitative sensitivity and comparison
+  analysis sections.
+
+IMPORTANT NOTE ON CHART 3
+  chart3_scenario_comparison.png uses pre-correction network
+  length values (S1: 423,462 km; S2: 73,633 km) from the
+  intermediate evaluation step. The corrected values
+  (S1: 5,106 km; S2: 3,617 km) are in corrected_metrics.json
+  (Group 07). This figure should be regenerated with
+  corrected values before final publication.
+
+VIEWING ORDER
+  Dataset #11 — final group. Review after all analytical
+  groups (01–10) to interpret the figures in context.
+  Recommended order: map1 → map2 → map3 → map4 →
+  chart1 → chart2 → chart3 → chart4 → chart5.
+
+FILE SPECS
+  Format    : PNG, 300 DPI, tight bounding box
+  Projection: WGS84 decimal degrees (no basemap)
+  Font      : matplotlib default (Arial/DejaVu)
+
+LICENCE
+  TRAMSYS LAB
+
+CONTACT / MAINTAINER
+  Eni Solomon Laughter - Chang'an University
+================================================================
+  END OF DESCRIPTION
+================================================================

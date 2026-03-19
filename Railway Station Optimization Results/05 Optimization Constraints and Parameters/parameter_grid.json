@@ -1,0 +1,24 @@
+{
+  "k_values": [
+    15,
+    20,
+    25
+  ],
+  "lambda_penalty": [
+    0.0,
+    0.3,
+    0.5,
+    0.7,
+    1.0
+  ],
+  "weight_configs": [
+    "cost_focused",
+    "balanced",
+    "access_focused"
+  ],
+  "min_spacing_options": [
+    80,
+    100,
+    120
+  ]
+}

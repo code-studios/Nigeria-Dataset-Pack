@@ -1,0 +1,73 @@
+================================================================
+  DATASET DESCRIPTION
+  Files   : demand_matrix_basic.csv
+            demand_matrix_enhanced.csv
+            demand_corridors.csv
+            demand_centrality.csv
+  Group   : 03 — Demand Analysis
+  Created : 2026-03-18  12:39:44
+================================================================
+
+TITLE
+  Nigeria Inter-City HSR Demand Matrices and Corridor
+  Centrality Analysis (Gravity Model)
+
+OVERVIEW
+  Four datasets encoding synthetic travel demand between
+  Nigerian state capitals, generated using two gravity model
+  formulations. These represent potential passenger demand
+  on a hypothetical high-speed rail network.
+
+HOW THEY WERE GENERATED
+  demand_matrix_basic.csv  (37×37)
+    Standard gravity model:
+      Demand_ij = (Pop_i × Pop_j) / Distance_ij²
+    Uses raw population and Haversine distances.
+
+  demand_matrix_enhanced.csv  (37×37)
+    Enhanced gravity model:
+      Demand_ij = (Pop_i × Pop_j × Econ_i × Econ_j)
+                  / Distance_ij^1.8
+    Distance exponent 1.8 is calibrated for HSR (reduces
+    distance friction vs standard road models). Economic
+    proxy weights are from the master_dataset.
+
+  demand_corridors.csv  (666 rows)
+    Flattened upper-triangle of both demand matrices into
+    origin-destination pairs, enriched with state names and
+    distances. Enables corridor-level ranking and filtering.
+
+  demand_centrality.csv  (37 rows)
+    Per-capital sum of all incoming + outgoing enhanced
+    demand. Represents each capital's importance as a
+    demand hub in the national network.
+
+PURPOSE
+  Used to rank station location candidates, prioritize
+  high-demand corridors, define mandatory stations (Lagos),
+  and evaluate demand capture rate in Scenario 2 results.
+
+VIEWING ORDER
+  Dataset #3 — review after the distance matrices.
+  Recommended sub-order:
+    1. demand_matrix_enhanced.csv (core demand surface)
+    2. demand_corridors.csv (top corridor ranking)
+    3. demand_centrality.csv (hub importance scores)
+    4. demand_matrix_basic.csv (baseline comparison)
+
+SCHEMA — demand_corridors.csv
+  origin, destination, origin_state, dest_state,
+  distance_km, demand_basic, demand_enhanced
+
+SCHEMA — demand_centrality.csv
+  state, capital_city, demand_centrality,
+  population, economic_proxy
+
+LICENCE
+  TRAMSYS LAB
+
+CONTACT / MAINTAINER
+  Eni Solomon Laughter - Chang'an University
+================================================================
+  END OF DESCRIPTION
+================================================================

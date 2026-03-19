@@ -1,0 +1,16 @@
+service_id,origin,destination,service_type,demand,distance_km,full_path,stops,num_stops,skipped_stations,num_skipped,total_time_hours,avg_speed_kmh,daily_frequency
+HSR-001,Ikeja,Abeokuta,LOCAL,160663010.9181487,80.96262684075342,"['Ikeja', 'Abeokuta']","['Ikeja', 'Abeokuta']",2,[],0,0.3238505073630137,249.99999999999997,12
+HSR-002,Ikeja,Ibadan,SMART,78183332.12857175,167.32982857733856,"['Ikeja', 'Abeokuta', 'Ibadan']","['Ikeja', 'Ibadan']",2,['Abeokuta'],1,0.6693193143093542,250.0,12
+HSR-003,Ikeja,Oshogbo,SMART,24790560.50366198,274.9592173136327,"['Ikeja', 'Abeokuta', 'Ibadan', 'Oshogbo']","['Ikeja', 'Ibadan', 'Oshogbo']",3,['Abeokuta'],1,1.1831702025878639,232.39193880325416,8
+HSR-004,Owerri,Port Harcourt,LOCAL,23355741.02040032,101.22834519738956,"['Owerri', 'Port Harcourt']","['Owerri', 'Port Harcourt']",2,[],0,0.40491338078955824,250.0,8
+HSR-005,Umuahia,Owerri,LOCAL,21944834.47965081,66.44051527398598,"['Umuahia', 'Owerri']","['Umuahia', 'Owerri']",2,[],0,0.2657620610959439,250.0,8
+HSR-006,Ikeja,Benin City,EXPRESS,19601811.88589777,625.818512572909,"['Ikeja', 'Abeokuta', 'Ibadan', 'Oshogbo', 'Ado-Ekiti', 'Ondo', 'Benin City']","['Ikeja', 'Benin City']",2,"['Abeokuta', 'Ibadan', 'Oshogbo', 'Ado-Ekiti', 'Ondo']",5,2.503274050291636,250.0,8
+HSR-007,Abeokuta,Ibadan,LOCAL,19434184.96797183,86.36720173658516,"['Abeokuta', 'Ibadan']","['Abeokuta', 'Ibadan']",2,[],0,0.34546880694634063,250.0,8
+HSR-008,Ikeja,Ilorin,SEMI-EXPRESS,14761746.70246153,378.166022426004,"['Ikeja', 'Abeokuta', 'Ibadan', 'Oshogbo', 'Ilorin']","['Ikeja', 'Abeokuta', 'Oshogbo', 'Ilorin']",4,['Ibadan'],1,1.6793307563706827,225.18852881804216,8
+HSR-009,Ibadan,Oshogbo,LOCAL,14564749.614806488,107.62938873629412,"['Ibadan', 'Oshogbo']","['Ibadan', 'Oshogbo']",2,[],0,0.43051755494517646,250.0,8
+HSR-010,Ilorin,Oshogbo,LOCAL,13537995.162309578,103.20680511237131,"['Ilorin', 'Oshogbo']","['Ilorin', 'Oshogbo']",2,[],0,0.4128272204494853,249.99999999999997,8
+HSR-011,Uyo,Calabar,LOCAL,13311633.200311026,58.483781266929455,"['Uyo', 'Calabar']","['Uyo', 'Calabar']",2,[],0,0.23393512506771783,250.0,8
+HSR-012,Ikeja,Ondo,SEMI-EXPRESS,12397318.77331258,468.9226206250337,"['Ikeja', 'Abeokuta', 'Ibadan', 'Oshogbo', 'Ado-Ekiti', 'Ondo']","['Ikeja', 'Abeokuta', 'Oshogbo', 'Ondo']",4,"['Ibadan', 'Ado-Ekiti']",2,2.0423571491668016,229.59873635046398,8
+HSR-013,Boji-Boji,Benin City,LOCAL,9587230.802320816,84.1331996737627,"['Boji-Boji', 'Benin City']","['Boji-Boji', 'Benin City']",2,[],0,0.3365327986950508,250.0,6
+HSR-014,Uyo,Port Harcourt,SMART,7536357.922923312,262.6859186948799,"['Uyo', 'Umuahia', 'Owerri', 'Port Harcourt']","['Uyo', 'Owerri', 'Port Harcourt']",3,['Umuahia'],1,1.1340770081128528,231.62970134805857,6
+HSR-015,Ikeja,Owerri,SEMI-EXPRESS,7371741.401208437,939.4240848039531,"['Ikeja', 'Abeokuta', 'Ibadan', 'Oshogbo', 'Ado-Ekiti', 'Ondo', 'Benin City', 'Boji-Boji', 'Awka', 'Owerri']","['Ikeja', 'Abeokuta', 'Oshogbo', 'Ondo', 'Boji-Boji', 'Owerri']",6,"['Ibadan', 'Ado-Ekiti', 'Benin City', 'Awka']",4,4.091029672549146,229.63023003902882,6

@@ -1,0 +1,118 @@
+================================================================
+  DATASET DESCRIPTION
+  File    : nigeria_city_coordinates.json
+  Created : 2026-03-18  11:31:35
+================================================================
+
+TITLE
+  Nigeria City Geographic Coordinates
+
+OVERVIEW
+  This dataset provides the geographic centroid coordinates
+  (latitude and longitude) for 37 major Nigerian cities,
+  covering all 36 states and the Federal Capital Territory
+  (FCT). Each record contains the city name alongside its
+  decimal-degree WGS84 coordinates.
+
+  It is intended for use as a spatial reference layer in
+  clustering analyses, map visualisations, transport network
+  modelling, and any study requiring city-level geolocation
+  data for Nigeria.
+
+FILE FORMAT
+  Format      : JSON
+  Encoding    : UTF-8
+  Structure   : Top-level object with key "cities" containing
+                an array of 37 record objects
+
+SCHEMA
+  Field   Type    Description
+  ------  ------  -------------------------------------------
+  name    string  City name
+  lat     float   Latitude in decimal degrees (WGS84)
+  lon     float   Longitude in decimal degrees (WGS84)
+
+COVERAGE
+  Geographic   : Nigeria — 37 major cities (one per state + FCT)
+  Coordinate   : WGS84 decimal degrees
+  Records      : 37
+
+SPATIAL EXTENT
+  Northernmost : Sokoto  (lat 13.06269)
+  Southernmost : Port Harcourt  (lat 4.81555)
+  Easternmost  : Maiduguri   (lon 13.15712)
+  Westernmost  : Ikeja   (lon 3.34205)
+
+CITIES INCLUDED
+    Aba
+  Abeokuta
+  Abuja
+  Ado-Ekiti
+  Akure
+  Asaba
+  Awka
+  Bauchi
+  Benin City
+  Birnin Kebbi
+  Calabar
+  Damaturu
+  Dutse
+  Enugu
+  Gombe
+  Gusau
+  Ibadan
+  Ikeja
+  Ilorin
+  Jalingo
+  Jos
+  Kaduna
+  Kano
+  Katsina
+  Lafia
+  Lokoja
+  Maiduguri
+  Makurdi
+  Minna
+  Oshogbo
+  Owerri
+  Port Harcourt
+  Sokoto
+  Umuahia
+  Uyo
+  Yenagoa
+  Yola
+
+PRIVACY & SENSITIVITY ASSESSMENT
+  PII present      : No
+  Sensitive values : None — coordinates are city-level centroids,
+                     not individual or household locations
+  Public release   : SUITABLE — fully aggregate, non-identifiable
+                     geographic reference data
+
+DATA SOURCE
+  [Open Source]
+
+INTENDED USE
+  - Spatial join reference for state-level datasets
+  - Base layer for choropleth and cluster maps
+  - Distance matrix computation between Nigerian cities
+  - Input for transport accessibility and routing models
+
+LIMITATIONS
+  - Coordinates represent approximate city centroids, not
+    administrative boundary centroids
+  - One city selected per state; does not capture all
+    significant urban centres within each state
+  - Coordinates sourced from public geolocation databases
+    and should be verified against authoritative NGA/NBS data
+    for precision-sensitive applications
+
+LICENCE
+  TRAMSYS LAB
+
+CONTACT / MAINTAINER
+  Eni Solomon Laughter - Chang'an University
+
+================================================================
+  END OF DESCRIPTION
+================================================================

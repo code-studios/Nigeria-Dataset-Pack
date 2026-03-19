@@ -1,0 +1,95 @@
+{
+  "Train 1": {
+    "zones": [
+      "South-West",
+      "South-South"
+    ],
+    "stations": [
+      "Abeokuta",
+      "Oshogbo",
+      "Boji-Boji"
+    ],
+    "route": [
+      "Oshogbo",
+      "Abeokuta",
+      "Boji-Boji",
+      "Oshogbo"
+    ],
+    "all_stops": {
+      "num_stops": 4,
+      "distance_km": 948.9374669663171,
+      "total_time_hours": 3.962416534531935
+    },
+    "limited_stops": {
+      "num_stops": 3,
+      "distance_km": 386.1603033552219,
+      "total_time_hours": 1.6279745467542208
+    }
+  },
+  "Train 2": {
+    "zones": [
+      "North-West",
+      "North-East"
+    ],
+    "stations": [
+      "Dutse",
+      "Funtua",
+      "Birnin Kebbi",
+      "Yola",
+      "Bauchi",
+      "Hausari",
+      "Gombe",
+      "Damaturu"
+    ],
+    "route": [
+      "Hausari",
+      "Damaturu",
+      "Gombe",
+      "Bauchi",
+      "Dutse",
+      "Funtua",
+      "Birnin Kebbi",
+      "Yola",
+      "Hausari"
+    ],
+    "all_stops": {
+      "num_stops": 9,
+      "distance_km": 3241.427960171108,
+      "total_time_hours": 13.549045174017767
+    },
+    "limited_stops": {
+      "num_stops": 5,
+      "distance_km": 1522.2509592800664,
+      "total_time_hours": 6.3390038371202655
+    }
+  },
+  "Train 3": {
+    "zones": [
+      "North-Central",
+      "South-East"
+    ],
+    "stations": [
+      "Chigo",
+      "Abuja",
+      "Umuahia",
+      "Enugu"
+    ],
+    "route": [
+      "Umuahia",
+      "Enugu",
+      "Chigo",
+      "Abuja",
+      "Umuahia"
+    ],
+    "all_stops": {
+      "num_stops": 5,
+      "distance_km": 1339.5465251500052,
+      "total_time_hours": 5.608186100600021
+    },
+    "limited_stops": {
+      "num_stops": 3,
+      "distance_km": 265.9938055238591,
+      "total_time_hours": 1.1473085554287699
+    }
+  }
+}

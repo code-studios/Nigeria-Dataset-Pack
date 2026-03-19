@@ -1,0 +1,80 @@
+================================================================
+  DATASET DESCRIPTION
+  Files   : scenario2_results_all.json    — all 9 k/λ configurations
+            scenario2_summary.csv         — tabular summary of all configs
+            comparison_table.csv          — S1 vs S2 metric comparison
+            all_evaluations.csv           — full evaluation metrics per scenario
+            sensitivity_analysis.json     — k and λ sensitivity analysis
+            final_report.json             — study conclusions and recommendation
+            corrected_metrics.json        — audited/corrected key values
+  Group   : 07 — Scenario 2 Results (Optimized Network)
+  Created : 2026-03-18  12:39:44
+================================================================
+
+TITLE
+  Scenario 2: Optimized Station Subset Selection — Modified
+  K-means Results Across All k/λ Configurations
+
+OVERVIEW
+  Full results of the Scenario 2 optimization sweep, testing
+  k ∈ {15, 20, 25} stations with λ ∈ {0.0, 0.3, 0.5, 0.7, 1.0}
+  redundancy penalty values using modified K-means clustering
+  with a geographic penalty term.
+
+HOW THEY WERE GENERATED
+  Modified K-means algorithm with the following additions:
+    1. Geographic penalty: stations within 80 km of each
+       other incur a λ-scaled cost penalty.
+    2. Zone balance constraint: minimum 1 station per
+       geopolitical zone enforced post-clustering.
+    3. Mandatory station: Lagos (Ikeja) always included.
+  The objective function minimized:
+    α × Network_Length + β × Avg_Distance + λ × Redundancy
+  Network length computed via MST on selected stations only.
+  All 9 k/λ combinations were evaluated.
+
+  corrected_metrics.json was produced by stage2_issue_audit.py
+  which identified and corrected two systematic errors in the
+  original run:
+    1. Network length was computed as sum of all pairwise
+       distances instead of MST edges → corrected.
+    2. Scenario 1 avg distance to station was non-zero →
+       corrected to 0.0 km (all capitals are stations).
+
+PURPOSE
+  Provides the full parameter sweep results to support
+  sensitivity analysis and configuration selection. The
+  corrected_metrics.json file contains the authoritative
+  values to use in all reporting and publication.
+
+VIEWING ORDER
+  Dataset #7 — review after Scenario 1 (Group 06).
+  Recommended sub-order within this group:
+    1. corrected_metrics.json     — authoritative final values
+    2. comparison_table.csv       — S1 vs S2 head-to-head
+    3. scenario2_summary.csv      — all k/λ results at a glance
+    4. all_evaluations.csv        — detailed metric breakdown
+    5. scenario2_results_all.json — full station lists per config
+    6. sensitivity_analysis.json  — k and λ impact analysis
+    7. final_report.json          — study conclusions
+
+KEY RESULTS (CORRECTED)
+  Best configuration : k=15, λ=0.0
+  Network length     : 3,616.6 km
+  Coverage (100km)   : 62.2%
+  Pop. coverage      : 64.4%
+  Avg dist/station   : 74.6 km
+  Redundancy pairs   : 0
+  vs Scenario 1      : 29.2% shorter network
+
+SELECTED STATIONS (k=15):
+  Dutse, Funtua, Birnin Kebbi, Yola, Bauchi, Hausari, Gombe, Damaturu, Chigo, Abuja, Abeokuta, Umuahia, Enugu, Boji-Boji, Oshogbo
+
+LICENCE
+  TRAMSYS LAB
+
+CONTACT / MAINTAINER
+  Eni Solomon Laughter - Chang'an University
+================================================================
+  END OF DESCRIPTION
+================================================================

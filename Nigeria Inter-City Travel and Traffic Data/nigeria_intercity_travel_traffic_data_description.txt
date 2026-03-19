@@ -1,0 +1,118 @@
+================================================================
+  DATASET DESCRIPTION
+  File    : nigeria_intercity_travel_traffic_data.csv
+  Created : 2026-03-18  12:14:48
+================================================================
+
+TITLE
+  Nigeria Inter-City Travel and Traffic Data
+
+OVERVIEW
+  This dataset contains inter-city origin-destination (OD)
+  travel records between 9 major Nigerian cities. Each record
+  represents a single trip observation with road distance,
+  congestion level, average speed, travel time, weather
+  condition, number of alternative routes, and a computed
+  suitability score.
+
+  The dataset covers 72 unique OD city pairs across
+  896 records, with multiple observations per pair under
+  varying traffic and weather conditions.
+
+  ⚠ DATA NOTE: Road length values contain high decimal
+  precision (e.g. 772.2622439999999 km) and the dataset
+  structure suggests this may be simulated or modelled data
+  rather than field-collected observations. Users should
+  treat values as representative estimates and verify against
+  authoritative sources (FMWORKS, FRSC) before citing in
+  publications.
+
+FILE FORMAT
+  Format      : CSV (comma-delimited)
+  Encoding    : UTF-8
+  Rows        : 896 (excluding header)
+  Columns     : 9
+
+SCHEMA
+  Field                  Type     Description
+  ---------------------  -------  ---------------------------------
+  Source                 string   Origin city name
+  Destination            string   Destination city name
+  Road Length (km)       float    Road distance between cities (km)
+  Congestion Level       string   Traffic congestion category
+                                  (Low / Medium / High)
+  Average Speed (km/h)   float    Mean travel speed (km/h)
+  Travel Time (min)      float    Estimated travel time (minutes)
+  Weather                string   Weather condition during trip
+                                  (Clear / Cloudy / Rainy / Foggy)
+  Alternative Routes     int      Number of alternative routes
+                                  available (0–3)
+  Suitability Score      float    Route suitability index (1–10;
+                                  higher = more suitable)
+
+COVERAGE
+  Cities (9)    : Abuja, Benin City, Enugu, Ibadan, Jos, Kaduna, Kano, Lagos, Port Harcourt
+  Unique OD pairs : 72
+  Total records   : 896
+
+STATISTICAL SUMMARY
+
+  Road Length (km)
+    Min  : 129.68    Max : 1040.28    Mean : 554.40
+
+  Average Speed (km/h)
+    Min  : 61.95    Max : 98.72    Mean : 78.40
+
+  Travel Time (min)
+    Min  : 78.82    Max : 810.08    Mean : 421.23
+
+  Suitability Score (1–10)
+    Min  : 1.00    Max : 10.00    Mean : 5.41
+
+  Congestion Level distribution:
+    High: 301 (33.6%)  |  Low: 322 (35.9%)  |  Medium: 273 (30.5%)
+
+  Weather distribution:
+    Clear: 241 (26.9%)  |  Cloudy: 217 (24.2%)  |  Foggy: 220 (24.6%)  |  Rainy: 218 (24.3%)
+
+  Alternative Routes distribution:
+    0 routes: 228  |  1 routes: 224  |  2 routes: 217  |  3 routes: 227
+
+PRIVACY & SENSITIVITY ASSESSMENT
+  PII present      : No
+  Sensitive values : None detected
+  Aggregation level: City-to-city route level (not individual)
+  Public release   : SUITABLE — no personally identifiable or
+                     sensitive information present
+
+DATA SOURCE
+  Source file: nigeria_traffic_data.csv
+  Original source unconfirmed. Data characteristics (high
+  decimal precision, balanced OD coverage, simulated weather
+  variation) are consistent with a modelled or synthetically
+  generated dataset. No official agency attribution available.
+
+INTENDED USE
+  - Inter-city route analysis and travel time modelling
+  - Traffic congestion pattern analysis
+  - Transport network suitability assessment
+  - Input features for mode choice and routing models
+  - K-means clustering of Nigerian city-pair travel conditions
+
+LIMITATIONS
+  - Data likely simulated/modelled — not empirically collected
+  - Only 9 cities covered; not nationally representative
+  - Road length precision suggests algorithmic generation
+  - Suitability Score methodology and weighting not documented
+  - Weather conditions appear randomly distributed rather
+    than tied to actual meteorological records
+
+LICENCE
+  TRAMSYS LAB
+
+CONTACT / MAINTAINER
+  Eni Solomon Laughter - Chang'an University
+
+================================================================
+  END OF DESCRIPTION
+================================================================

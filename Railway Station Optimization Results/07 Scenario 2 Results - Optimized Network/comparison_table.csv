@@ -1,0 +1,8 @@
+Metric,Scenario 1,Scenario 2 (Best),Winner
+Number of Stations,37,15,S1
+Network Length (km),423462,73633,S2
+"Population Coverage (100km, %)",100,64.4,S1
+Avg Distance to Station (km),0,74.6,S1
+Redundancy (pairs <100km),10,0,S2
+Demand Capture (%),100,1.5,S1
+Cost per Capita,0.038599,0.010424,S2

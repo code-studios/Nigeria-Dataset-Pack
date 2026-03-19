@@ -1,0 +1,20 @@
+{
+  "maps_generated": 3,
+  "map1": {
+    "title": "Scenario 1 Complete Network",
+    "stations": 37,
+    "total_routes": 36,
+    "network_length_km": 5105.8
+  },
+  "map2": {
+    "title": "Scenario 2 Optimized Network",
+    "stations": 15,
+    "non_station_capitals": 22,
+    "network_length_km": 3616.6
+  },
+  "map3": {
+    "title": "Coverage Comparison",
+    "s1_coverage": "100%",
+    "s2_coverage": "62.2%"
+  }
+}

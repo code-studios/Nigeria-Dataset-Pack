@@ -1,0 +1,256 @@
+{
+  "selected_scenario": "Scenario 1",
+  "total_corridors": 5,
+  "corridors": {
+    "Corridor 1: Lagos-Abuja-Kano (North-South Spine)": {
+      "route_type": "Primary Spine",
+      "origin": "Lagos",
+      "destination": "Kano",
+      "intermediate_major": [
+        "Ibadan",
+        "Ilorin",
+        "Abuja",
+        "Kaduna"
+      ],
+      "zones_served": [
+        "South-West",
+        "North-Central",
+        "North-West"
+      ],
+      "strategic_importance": "Connects 3 largest cities, crosses 3 zones",
+      "total_distance_km": 543.0579349893853,
+      "travel_time_hours": 2.1722317399575415,
+      "stop_time_hours": 0.3333333333333333,
+      "total_time_hours": 2.505565073290875,
+      "num_stops": 6,
+      "segments": [
+        {
+          "from": "Ibadan",
+          "to": "Ilorin",
+          "distance_km": 185.05381443317512
+        },
+        {
+          "from": "Ilorin",
+          "to": "Abuja",
+          "distance_km": 358.0041205562102
+        }
+      ]
+    },
+    "Corridor 2: Lagos-Port Harcourt (Southern Coastal)": {
+      "route_type": "Primary Regional",
+      "origin": "Lagos",
+      "destination": "Port Harcourt",
+      "intermediate_major": [
+        "Abeokuta",
+        "Ibadan",
+        "Benin City",
+        "Asaba"
+      ],
+      "zones_served": [
+        "South-West",
+        "South-South",
+        "South-East"
+      ],
+      "strategic_importance": "Economic corridor, oil/gas regions",
+      "total_distance_km": 374.59106373658517,
+      "travel_time_hours": 1.4983642549463407,
+      "stop_time_hours": 0.3333333333333333,
+      "total_time_hours": 1.831697588279674,
+      "num_stops": 6,
+      "segments": [
+        {
+          "from": "Abeokuta",
+          "to": "Ibadan",
+          "distance_km": 86.36720173658516
+        },
+        {
+          "from": "Ibadan",
+          "to": "Benin City",
+          "distance_km": 288.223862
+        }
+      ]
+    },
+    "Corridor 3: Abuja-Port Harcourt (Central-South)": {
+      "route_type": "Secondary Spine",
+      "origin": "Abuja",
+      "destination": "Port Harcourt",
+      "intermediate_major": [
+        "Lokoja",
+        "Enugu",
+        "Owerri"
+      ],
+      "zones_served": [
+        "North-Central",
+        "South-East",
+        "South-South"
+      ],
+      "strategic_importance": "Capital to oil hub connection",
+      "total_distance_km": 691.7249504739773,
+      "travel_time_hours": 2.7668998018959092,
+      "stop_time_hours": 0.25,
+      "total_time_hours": 3.0168998018959092,
+      "num_stops": 5,
+      "segments": [
+        {
+          "from": "Abuja",
+          "to": "Lokoja",
+          "distance_km": 211.3549075612606
+        },
+        {
+          "from": "Lokoja",
+          "to": "Enugu",
+          "distance_km": 224.79324264960843
+        },
+        {
+          "from": "Enugu",
+          "to": "Owerri",
+          "distance_km": 154.34845506571867
+        },
+        {
+          "from": "Owerri",
+          "to": "Port Harcourt",
+          "distance_km": 101.22834519738956
+        }
+      ]
+    },
+    "Corridor 4: Kano-Maiduguri (Northern Belt)": {
+      "route_type": "Regional",
+      "origin": "Kano",
+      "destination": "Maiduguri",
+      "intermediate_major": [
+        "Bauchi",
+        "Gombe"
+      ],
+      "zones_served": [
+        "North-West",
+        "North-East"
+      ],
+      "strategic_importance": "Northern regional integration",
+      "total_distance_km": 497.8157734349591,
+      "travel_time_hours": 1.9912630937398363,
+      "stop_time_hours": 0.16666666666666666,
+      "total_time_hours": 2.157929760406503,
+      "num_stops": 4,
+      "segments": [
+        {
+          "from": "Kano",
+          "to": "Bauchi",
+          "distance_km": 308.63598859006146
+        },
+        {
+          "from": "Bauchi",
+          "to": "Gombe",
+          "distance_km": 189.17978484489765
+        }
+      ]
+    },
+    "Corridor 5: Enugu-Calabar (Eastern)": {
+      "route_type": "Regional",
+      "origin": "Enugu",
+      "destination": "Calabar",
+      "intermediate_major": [
+        "Abakaliki",
+        "Uyo"
+      ],
+      "zones_served": [
+        "South-East",
+        "South-South"
+      ],
+      "strategic_importance": "Eastern seaboard connection",
+      "total_distance_km": 336.0783773194731,
+      "travel_time_hours": 1.3443135092778924,
+      "stop_time_hours": 0.16666666666666666,
+      "total_time_hours": 1.5109801759445591,
+      "num_stops": 4,
+      "segments": [
+        {
+          "from": "Enugu",
+          "to": "Abakaliki",
+          "distance_km": 89.33179214610932
+        },
+        {
+          "from": "Abakaliki",
+          "to": "Uyo",
+          "distance_km": 188.2628039064343
+        },
+        {
+          "from": "Uyo",
+          "to": "Calabar",
+          "distance_km": 58.483781266929455
+        }
+      ]
+    }
+  },
+  "zone_connectivity": {
+    "North-West": {
+      "North-West": 0,
+      "North-East": 1,
+      "North-Central": 1,
+      "South-West": 1,
+      "South-East": 0,
+      "South-South": 0
+    },
+    "North-East": {
+      "North-West": 1,
+      "North-East": 0,
+      "North-Central": 0,
+      "South-West": 0,
+      "South-East": 0,
+      "South-South": 0
+    },
+    "North-Central": {
+      "North-West": 1,
+      "North-East": 0,
+      "North-Central": 0,
+      "South-West": 1,
+      "South-East": 1,
+      "South-South": 1
+    },
+    "South-West": {
+      "North-West": 1,
+      "North-East": 0,
+      "North-Central": 1,
+      "South-West": 0,
+      "South-East": 1,
+      "South-South": 1
+    },
+    "South-East": {
+      "North-West": 0,
+      "North-East": 0,
+      "North-Central": 1,
+      "South-West": 1,
+      "South-East": 0,
+      "South-South": 1
+    },
+    "South-South": {
+      "North-West": 0,
+      "North-East": 0,
+      "North-Central": 1,
+      "South-West": 1,
+      "South-East": 1,
+      "South-South": 0
+    }
+  },
+  "service_recommendations": {
+    "Corridor 1: Lagos-Abuja-Kano (North-South Spine)": {
+      "recommended_frequency": "Standard (6-8 trains/day)",
+      "service_type": "Primary Spine"
+    },
+    "Corridor 2: Lagos-Port Harcourt (Southern Coastal)": {
+      "recommended_frequency": "Standard (6-8 trains/day)",
+      "service_type": "Primary Regional"
+    },
+    "Corridor 3: Abuja-Port Harcourt (Central-South)": {
+      "recommended_frequency": "Standard (6-8 trains/day)",
+      "service_type": "Secondary Spine"
+    },
+    "Corridor 4: Kano-Maiduguri (Northern Belt)": {
+      "recommended_frequency": "Standard (6-8 trains/day)",
+      "service_type": "Regional"
+    },
+    "Corridor 5: Enugu-Calabar (Eastern)": {
+      "recommended_frequency": "Standard (6-8 trains/day)",
+      "service_type": "Regional"
+    }
+  }
+}

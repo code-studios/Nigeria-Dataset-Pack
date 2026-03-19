@@ -1,0 +1,154 @@
+{
+  "title": "Data Extraction from Bar Charts",
+  "unit": "Percentage (%)",
+  "data": [
+    {
+      "state": "Abia",
+      "percentage": 18.7
+    },
+    {
+      "state": "FCT",
+      "percentage": 14.1
+    },
+    {
+      "state": "Rivers",
+      "percentage": 13.4
+    },
+    {
+      "state": "Gombe",
+      "percentage": 11.2
+    },
+    {
+      "state": "Imo",
+      "percentage": 10.9
+    },
+    {
+      "state": "Ogun",
+      "percentage": 8.8
+    },
+    {
+      "state": "Delta",
+      "percentage": 8.2
+    },
+    {
+      "state": "Kano",
+      "percentage": 7.6
+    },
+    {
+      "state": "Plateau",
+      "percentage": 7.4
+    },
+    {
+      "state": "Borno",
+      "percentage": 7.3
+    },
+    {
+      "state": "Bayelsa",
+      "percentage": 6.3
+    },
+    {
+      "state": "Enugu",
+      "percentage": 5.9
+    },
+    {
+      "state": "Ondo",
+      "percentage": 5.7
+    },
+    {
+      "state": "Ekiti",
+      "percentage": 5.5
+    },
+    {
+      "state": "Lagos",
+      "percentage": 5.5
+    },
+    {
+      "state": "Akwa Ibom",
+      "percentage": 5.1
+    },
+    {
+      "state": "Anambra",
+      "percentage": 4.8
+    },
+    {
+      "state": "Kwara",
+      "percentage": 4.8
+    },
+    {
+      "state": "Edo",
+      "percentage": 4.4
+    },
+    {
+      "state": "Bauchi",
+      "percentage": 4.2
+    },
+    {
+      "state": "Jigawa",
+      "percentage": 4.0
+    },
+    {
+      "state": "Ebonyi",
+      "percentage": 3.7
+    },
+    {
+      "state": "Yobe",
+      "percentage": 3.3
+    },
+    {
+      "state": "Adamawa",
+      "percentage": 3.2
+    },
+    {
+      "state": "Niger",
+      "percentage": 3.2
+    },
+    {
+      "state": "Zamfara",
+      "percentage": 3.1
+    },
+    {
+      "state": "Kogi",
+      "percentage": 3.0
+    },
+    {
+      "state": "Osun",
+      "percentage": 2.9
+    },
+    {
+      "state": "Cross River",
+      "percentage": 2.8
+    },
+    {
+      "state": "Katsina",
+      "percentage": 2.8
+    },
+    {
+      "state": "Kaduna",
+      "percentage": 2.7
+    },
+    {
+      "state": "Oyo",
+      "percentage": 2.0
+    },
+    {
+      "state": "Taraba",
+      "percentage": 1.9
+    },
+    {
+      "state": "Benue",
+      "percentage": 1.6
+    },
+    {
+      "state": "Kebbi",
+      "percentage": 1.6
+    },
+    {
+      "state": "Sokoto",
+      "percentage": 1.2
+    },
+    {
+      "state": "Nasarawa",
+      "percentage": 0.5
+    }
+  ]
+}

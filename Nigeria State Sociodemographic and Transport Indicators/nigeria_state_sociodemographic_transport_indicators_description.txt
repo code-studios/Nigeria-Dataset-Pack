@@ -1,0 +1,156 @@
+================================================================
+  DATASET DESCRIPTION
+  File    : nigeria_state_sociodemographic_transport_indicators.json
+  Created : 2026-03-18  11:21:26
+================================================================
+
+TITLE
+  Nigeria State-Level Sociodemographic and Transport
+  Infrastructure Indicators
+
+OVERVIEW
+  This dataset provides four state-level indicators across all
+  36 states of Nigeria plus the Federal Capital Territory (FCT),
+  covering sociodemographic characteristics and road
+  infrastructure quality. Each record represents one
+  administrative unit with values drawn from multiple
+  authoritative national and international survey sources.
+
+  It is designed for use in clustering analyses (e.g. K-means
+  segmentation of Nigerian states), transport mode choice
+  modelling, spatial vulnerability assessments, and
+  socioeconomic policy research.
+
+FILE FORMAT
+  Format      : JSON
+  Encoding    : UTF-8
+  Structure   : Root-level array of 37 record objects
+
+SCHEMA
+  Field                            Type    Description
+  -------------------------------- ------- --------------------------------
+  state                            string  Nigerian state name or FCT
+  rural_residence_percent          float   Share of population in rural
+                                           areas (%)
+  disability_prevalence_percent    float   Prevalence of disability in
+                                           state population (%)
+  ethnic_diversity_index           float   Ethnic fractionalisation index
+                                           (0 = homogeneous, 1 = max
+                                           diversity)
+  road_condition_index_percent_poor float  Share of road network rated
+                                           poor condition (%)
+  sources                          string  Semicolon-delimited list of
+                                           source references per record
+
+COVERAGE
+  Geographic   : Nigeria — all 36 states + FCT
+  Unit type    : State-level aggregate (no individual-level data)
+  Records      : 37
+
+STATISTICAL SUMMARY
+
+  Rural Residence (%)
+    Min  : 10.5%  (Lagos)
+    Max  : 88.1%  (Sokoto)
+    Mean : 59.59%
+
+  Disability Prevalence (%)
+    Min  : 7.9%
+    Max  : 16.1%
+    Mean : 11.17%
+
+  Ethnic Diversity Index
+    Min  : 0.12
+    Max  : 0.85
+    Mean : 0.452
+
+  Road Condition — Poor (%)
+    Min  : 40.0%  (Lagos)
+    Max  : 85.0%  (Borno)
+    Mean : 65.08%
+
+  States covered :
+        Abia
+    Adamawa
+    Akwa Ibom
+    Anambra
+    Bauchi
+    Bayelsa
+    Benue
+    Borno
+    Cross River
+    Delta
+    Ebonyi
+    Edo
+    Ekiti
+    Enugu
+    FCT (Abuja)
+    Gombe
+    Imo
+    Jigawa
+    Kaduna
+    Kano
+    Katsina
+    Kebbi
+    Kogi
+    Kwara
+    Lagos
+    Nasarawa
+    Niger
+    Ogun
+    Ondo
+    Osun
+    Oyo
+    Plateau
+    Rivers
+    Sokoto
+    Taraba
+    Yobe
+    Zamfara
+
+DATA SOURCES (as cited in records)
+    - CIA Ethnic Dist.
+  - FRSC Q4 2023
+  - NBS NLSS 2020
+  - NDHS 2018
+
+  Full source references:
+    - NBS NLSS 2020   : National Bureau of Statistics, Nigeria Living
+                        Standards Survey 2020
+    - NDHS 2018       : Nigeria Demographic and Health Survey 2018
+    - CIA Ethnic Dist.: CIA World Factbook — Ethnic Diversity Estimates
+    - FRSC Q4 2023    : Federal Road Safety Corps, Q4 2023 Road
+                        Condition Report
+
+PRIVACY & SENSITIVITY ASSESSMENT
+  PII present      : No
+  Sensitive values : None detected
+  Aggregation level: State-level aggregate (not individual/household)
+  Public release   : SUITABLE — all indicators are aggregate,
+                     non-identifiable, and sourced from public datasets
+
+INTENDED USE
+  - K-means / clustering analysis of Nigerian states
+  - Transport vulnerability and accessibility modelling
+  - Input features for mode choice or road safety models
+  - Spatial visualisation and choropleth mapping
+  - Socioeconomic and infrastructure policy research
+
+LIMITATIONS
+  - Each indicator is from a different survey year; not a
+    consistent cross-sectional snapshot
+  - State averages mask significant within-state variation
+  - Road condition index is based on FRSC assessments which
+    may not cover all road categories uniformly
+  - Ethnic diversity index uses CIA estimates which may differ
+    from NBS classifications
+
+LICENCE
+  [TRAMSYS LAB]
+
+CONTACT / MAINTAINER
+  [Eni Solomon Laughter - Chang'an University]
+
+================================================================
+  END OF DESCRIPTION
+================================================================

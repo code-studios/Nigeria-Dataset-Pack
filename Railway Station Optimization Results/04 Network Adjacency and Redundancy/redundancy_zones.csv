@@ -1,0 +1,11 @@
+capital_1,capital_2,state_1,state_2,distance_km,geographic_neighbors
+Ado-Ekiti,Ondo,Ekiti,Ondo,94.00778819286128,True
+Ado-Ekiti,Oshogbo,Ekiti,Osun,99.95561511853968,True
+Ikeja,Abeokuta,Lagos,Ogun,80.96262684075342,True
+Abeokuta,Ibadan,Ogun,Oyo,86.36720173658516,True
+Umuahia,Owerri,Abia,Imo,66.44051527398598,True
+Umuahia,Uyo,Abia,Akwa Ibom,95.01705822350438,True
+Awka,Enugu,Anambra,Enugu,70.15765225617413,True
+Abakaliki,Enugu,Ebonyi,Enugu,89.33179214610932,True
+Uyo,Calabar,Akwa Ibom,Cross River,58.483781266929455,True
+Boji-Boji,Benin City,Delta,Edo,84.1331996737627,True

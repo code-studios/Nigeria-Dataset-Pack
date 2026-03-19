@@ -1,0 +1,15 @@
+{
+  "scenario1": {
+    "k": 37,
+    "network_length_km": 5105.842954573954,
+    "coverage_pct": 100.0,
+    "redundancy": 10
+  },
+  "scenario2_best": {
+    "k": 15,
+    "lambda": 0.0,
+    "network_length_km": 3616.6281301099953,
+    "coverage_pct": 62.16216216216216,
+    "redundancy": 0
+  }
+}

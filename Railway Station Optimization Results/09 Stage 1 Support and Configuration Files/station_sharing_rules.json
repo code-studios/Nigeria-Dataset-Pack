@@ -1,0 +1,1346 @@
+[
+  {
+    "station_state": "Jigawa",
+    "station_capital": "Dutse",
+    "can_serve_count": 2,
+    "can_serve": [
+      {
+        "neighbor_state": "Kano",
+        "neighbor_capital": "Kano",
+        "distance_km": 122.42770864826753,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Bauchi",
+        "neighbor_capital": "Bauchi",
+        "distance_km": 221.2812975064532,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Kaduna",
+    "station_capital": "Tudun Wada",
+    "can_serve_count": 3,
+    "can_serve": [
+      {
+        "neighbor_state": "Katsina",
+        "neighbor_capital": "Funtua",
+        "distance_km": 146.68678513778966,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "FCT",
+        "neighbor_capital": "Abuja",
+        "distance_km": 194.5415385624271,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Plateau",
+        "neighbor_capital": "Jos",
+        "distance_km": 226.62271540837347,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Kano",
+    "station_capital": "Kano",
+    "can_serve_count": 2,
+    "can_serve": [
+      {
+        "neighbor_state": "Jigawa",
+        "neighbor_capital": "Dutse",
+        "distance_km": 122.42770864826753,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Katsina",
+        "neighbor_capital": "Funtua",
+        "distance_km": 183.45027514995036,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Katsina",
+    "station_capital": "Funtua",
+    "can_serve_count": 3,
+    "can_serve": [
+      {
+        "neighbor_state": "Kaduna",
+        "neighbor_capital": "Tudun Wada",
+        "distance_km": 146.68678513778966,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Kano",
+        "neighbor_capital": "Kano",
+        "distance_km": 183.45027514995036,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Zamfara",
+        "neighbor_capital": "Jenyau",
+        "distance_km": 134.52870605467595,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Kebbi",
+    "station_capital": "Birnin Kebbi",
+    "can_serve_count": 1,
+    "can_serve": [
+      {
+        "neighbor_state": "Sokoto",
+        "neighbor_capital": "Sokoto",
+        "distance_km": 166.73232155003728,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Sokoto",
+    "station_capital": "Sokoto",
+    "can_serve_count": 2,
+    "can_serve": [
+      {
+        "neighbor_state": "Kebbi",
+        "neighbor_capital": "Birnin Kebbi",
+        "distance_km": 166.73232155003728,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Zamfara",
+        "neighbor_capital": "Jenyau",
+        "distance_km": 238.1478914980443,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Zamfara",
+    "station_capital": "Jenyau",
+    "can_serve_count": 2,
+    "can_serve": [
+      {
+        "neighbor_state": "Katsina",
+        "neighbor_capital": "Funtua",
+        "distance_km": 134.52870605467595,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Sokoto",
+        "neighbor_capital": "Sokoto",
+        "distance_km": 238.1478914980443,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Adamawa",
+    "station_capital": "Yola",
+    "can_serve_count": 2,
+    "can_serve": [
+      {
+        "neighbor_state": "Gombe",
+        "neighbor_capital": "Gombe",
+        "distance_km": 243.31510245744127,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Taraba",
+        "neighbor_capital": "Jalingo",
+        "distance_km": 166.44112027224307,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Bauchi",
+    "station_capital": "Bauchi",
+    "can_serve_count": 3,
+    "can_serve": [
+      {
+        "neighbor_state": "Jigawa",
+        "neighbor_capital": "Dutse",
+        "distance_km": 221.2812975064532,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Gombe",
+        "neighbor_capital": "Gombe",
+        "distance_km": 189.17978484489765,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Plateau",
+        "neighbor_capital": "Jos",
+        "distance_km": 145.9224887205213,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Gombe",
+    "station_capital": "Gombe",
+    "can_serve_count": 4,
+    "can_serve": [
+      {
+        "neighbor_state": "Adamawa",
+        "neighbor_capital": "Yola",
+        "distance_km": 243.31510245744127,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Bauchi",
+        "neighbor_capital": "Bauchi",
+        "distance_km": 189.17978484489765,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Taraba",
+        "neighbor_capital": "Jalingo",
+        "distance_km": 204.17860965943424,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Yobe",
+        "neighbor_capital": "Damaturu",
+        "distance_km": 169.69186692623006,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Taraba",
+    "station_capital": "Jalingo",
+    "can_serve_count": 2,
+    "can_serve": [
+      {
+        "neighbor_state": "Adamawa",
+        "neighbor_capital": "Yola",
+        "distance_km": 166.44112027224307,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Gombe",
+        "neighbor_capital": "Gombe",
+        "distance_km": 204.17860965943424,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Yobe",
+    "station_capital": "Damaturu",
+    "can_serve_count": 1,
+    "can_serve": [
+      {
+        "neighbor_state": "Gombe",
+        "neighbor_capital": "Gombe",
+        "distance_km": 169.69186692623006,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Benue",
+    "station_capital": "Chigo",
+    "can_serve_count": 2,
+    "can_serve": [
+      {
+        "neighbor_state": "Nasarawa",
+        "neighbor_capital": "Lafia",
+        "distance_km": 183.654646147538,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Ebonyi",
+        "neighbor_capital": "Abakaliki",
+        "distance_km": 194.8202671983121,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "FCT",
+    "station_capital": "Abuja",
+    "can_serve_count": 4,
+    "can_serve": [
+      {
+        "neighbor_state": "Kaduna",
+        "neighbor_capital": "Tudun Wada",
+        "distance_km": 194.5415385624271,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Kogi",
+        "neighbor_capital": "Lokoja",
+        "distance_km": 211.3549075612606,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Niger",
+        "neighbor_capital": "Bida",
+        "distance_km": 133.571266941286,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Plateau",
+        "neighbor_capital": "Jos",
+        "distance_km": 232.623612,
+        "is_geographic_neighbor": false
+      }
+    ]
+  },
+  {
+    "station_state": "Kogi",
+    "station_capital": "Lokoja",
+    "can_serve_count": 6,
+    "can_serve": [
+      {
+        "neighbor_state": "FCT",
+        "neighbor_capital": "Abuja",
+        "distance_km": 211.3549075612606,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Niger",
+        "neighbor_capital": "Bida",
+        "distance_km": 212.43925255641477,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Ekiti",
+        "neighbor_capital": "Ado-Ekiti",
+        "distance_km": 219.28382217735535,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Anambra",
+        "neighbor_capital": "Awka",
+        "distance_km": 234.66557247827365,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Enugu",
+        "neighbor_capital": "Enugu",
+        "distance_km": 224.79324264960843,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Delta",
+        "neighbor_capital": "Boji-Boji",
+        "distance_km": 235.2392898736537,
+        "is_geographic_neighbor": false
+      }
+    ]
+  },
+  {
+    "station_state": "Nasarawa",
+    "station_capital": "Lafia",
+    "can_serve_count": 2,
+    "can_serve": [
+      {
+        "neighbor_state": "Benue",
+        "neighbor_capital": "Chigo",
+        "distance_km": 183.654646147538,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Plateau",
+        "neighbor_capital": "Jos",
+        "distance_km": 214.74747098739527,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Niger",
+    "station_capital": "Bida",
+    "can_serve_count": 4,
+    "can_serve": [
+      {
+        "neighbor_state": "FCT",
+        "neighbor_capital": "Abuja",
+        "distance_km": 133.571266941286,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Kogi",
+        "neighbor_capital": "Lokoja",
+        "distance_km": 212.43925255641477,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Ekiti",
+        "neighbor_capital": "Ado-Ekiti",
+        "distance_km": 239.38773155611312,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Kwara",
+        "neighbor_capital": "Ilorin",
+        "distance_km": 226.0125846696855,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Plateau",
+    "station_capital": "Jos",
+    "can_serve_count": 4,
+    "can_serve": [
+      {
+        "neighbor_state": "Kaduna",
+        "neighbor_capital": "Tudun Wada",
+        "distance_km": 226.62271540837347,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Bauchi",
+        "neighbor_capital": "Bauchi",
+        "distance_km": 145.9224887205213,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "FCT",
+        "neighbor_capital": "Abuja",
+        "distance_km": 232.623612,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Nasarawa",
+        "neighbor_capital": "Lafia",
+        "distance_km": 214.74747098739527,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Ekiti",
+    "station_capital": "Ado-Ekiti",
+    "can_serve_count": 8,
+    "can_serve": [
+      {
+        "neighbor_state": "Kogi",
+        "neighbor_capital": "Lokoja",
+        "distance_km": 219.28382217735535,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Niger",
+        "neighbor_capital": "Bida",
+        "distance_km": 239.38773155611312,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Ondo",
+        "neighbor_capital": "Ondo",
+        "distance_km": 94.00778819286128,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Oyo",
+        "neighbor_capital": "Ibadan",
+        "distance_km": 190.92319105915828,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Delta",
+        "neighbor_capital": "Boji-Boji",
+        "distance_km": 242.54592303033155,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Edo",
+        "neighbor_capital": "Benin City",
+        "distance_km": 194.15466690407052,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Kwara",
+        "neighbor_capital": "Ilorin",
+        "distance_km": 159.59593162846645,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Osun",
+        "neighbor_capital": "Oshogbo",
+        "distance_km": 99.95561511853968,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Lagos",
+    "station_capital": "Ikeja",
+    "can_serve_count": 4,
+    "can_serve": [
+      {
+        "neighbor_state": "Ogun",
+        "neighbor_capital": "Abeokuta",
+        "distance_km": 80.96262684075342,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Ondo",
+        "neighbor_capital": "Ondo",
+        "distance_km": 226.63665961701253,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Oyo",
+        "neighbor_capital": "Ibadan",
+        "distance_km": 139.2885166784078,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Osun",
+        "neighbor_capital": "Oshogbo",
+        "distance_km": 242.76227394348984,
+        "is_geographic_neighbor": false
+      }
+    ]
+  },
+  {
+    "station_state": "Ogun",
+    "station_capital": "Abeokuta",
+    "can_serve_count": 4,
+    "can_serve": [
+      {
+        "neighbor_state": "Lagos",
+        "neighbor_capital": "Ikeja",
+        "distance_km": 80.96262684075342,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Ondo",
+        "neighbor_capital": "Ondo",
+        "distance_km": 213.9606519874606,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Oyo",
+        "neighbor_capital": "Ibadan",
+        "distance_km": 86.36720173658516,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Osun",
+        "neighbor_capital": "Oshogbo",
+        "distance_km": 193.08015167761096,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Ondo",
+    "station_capital": "Ondo",
+    "can_serve_count": 8,
+    "can_serve": [
+      {
+        "neighbor_state": "Ekiti",
+        "neighbor_capital": "Ado-Ekiti",
+        "distance_km": 94.00778819286128,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Lagos",
+        "neighbor_capital": "Ikeja",
+        "distance_km": 226.63665961701253,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Ogun",
+        "neighbor_capital": "Abeokuta",
+        "distance_km": 213.9606519874606,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Oyo",
+        "neighbor_capital": "Ibadan",
+        "distance_km": 139.79740868420035,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Delta",
+        "neighbor_capital": "Boji-Boji",
+        "distance_km": 230.39863158582529,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Edo",
+        "neighbor_capital": "Benin City",
+        "distance_km": 156.8958919478753,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Kwara",
+        "neighbor_capital": "Ilorin",
+        "distance_km": 207.7610475728105,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Osun",
+        "neighbor_capital": "Oshogbo",
+        "distance_km": 108.8688165444364,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Oyo",
+    "station_capital": "Ibadan",
+    "can_serve_count": 6,
+    "can_serve": [
+      {
+        "neighbor_state": "Ekiti",
+        "neighbor_capital": "Ado-Ekiti",
+        "distance_km": 190.92319105915828,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Lagos",
+        "neighbor_capital": "Ikeja",
+        "distance_km": 139.2885166784078,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Ogun",
+        "neighbor_capital": "Abeokuta",
+        "distance_km": 86.36720173658516,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Ondo",
+        "neighbor_capital": "Ondo",
+        "distance_km": 139.79740868420035,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Kwara",
+        "neighbor_capital": "Ilorin",
+        "distance_km": 185.05381443317512,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Osun",
+        "neighbor_capital": "Oshogbo",
+        "distance_km": 107.62938873629412,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Abia",
+    "station_capital": "Umuahia",
+    "can_serve_count": 9,
+    "can_serve": [
+      {
+        "neighbor_state": "Anambra",
+        "neighbor_capital": "Awka",
+        "distance_km": 116.60146524123026,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Ebonyi",
+        "neighbor_capital": "Abakaliki",
+        "distance_km": 146.01356570863604,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Enugu",
+        "neighbor_capital": "Enugu",
+        "distance_km": 132.99690276192956,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Imo",
+        "neighbor_capital": "Owerri",
+        "distance_km": 66.44051527398598,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Akwa Ibom",
+        "neighbor_capital": "Uyo",
+        "distance_km": 95.01705822350438,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Bayelsa",
+        "neighbor_capital": "Yenagoa",
+        "distance_km": 195.2350153108233,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Cross River",
+        "neighbor_capital": "Calabar",
+        "distance_km": 145.51215130777928,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Delta",
+        "neighbor_capital": "Boji-Boji",
+        "distance_km": 212.87777894442036,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Rivers",
+        "neighbor_capital": "Port Harcourt",
+        "distance_km": 127.34985054153678,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Anambra",
+    "station_capital": "Awka",
+    "can_serve_count": 10,
+    "can_serve": [
+      {
+        "neighbor_state": "Kogi",
+        "neighbor_capital": "Lokoja",
+        "distance_km": 234.66557247827365,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Abia",
+        "neighbor_capital": "Umuahia",
+        "distance_km": 116.60146524123026,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Ebonyi",
+        "neighbor_capital": "Abakaliki",
+        "distance_km": 150.2812422611992,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Enugu",
+        "neighbor_capital": "Enugu",
+        "distance_km": 70.15765225617413,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Imo",
+        "neighbor_capital": "Owerri",
+        "distance_km": 105.68063870628993,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Akwa Ibom",
+        "neighbor_capital": "Uyo",
+        "distance_km": 210.71504759947808,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Bayelsa",
+        "neighbor_capital": "Yenagoa",
+        "distance_km": 217.9040497853109,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Delta",
+        "neighbor_capital": "Boji-Boji",
+        "distance_km": 123.79173385099148,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Edo",
+        "neighbor_capital": "Benin City",
+        "distance_km": 207.7612778291725,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Rivers",
+        "neighbor_capital": "Port Harcourt",
+        "distance_km": 206.89156731725603,
+        "is_geographic_neighbor": false
+      }
+    ]
+  },
+  {
+    "station_state": "Ebonyi",
+    "station_capital": "Abakaliki",
+    "can_serve_count": 7,
+    "can_serve": [
+      {
+        "neighbor_state": "Benue",
+        "neighbor_capital": "Chigo",
+        "distance_km": 194.8202671983121,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Abia",
+        "neighbor_capital": "Umuahia",
+        "distance_km": 146.01356570863604,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Anambra",
+        "neighbor_capital": "Awka",
+        "distance_km": 150.2812422611992,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Enugu",
+        "neighbor_capital": "Enugu",
+        "distance_km": 89.33179214610932,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Imo",
+        "neighbor_capital": "Owerri",
+        "distance_km": 197.1262099368356,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Akwa Ibom",
+        "neighbor_capital": "Uyo",
+        "distance_km": 188.2628039064343,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Cross River",
+        "neighbor_capital": "Calabar",
+        "distance_km": 199.1235721358992,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Enugu",
+    "station_capital": "Enugu",
+    "can_serve_count": 10,
+    "can_serve": [
+      {
+        "neighbor_state": "Kogi",
+        "neighbor_capital": "Lokoja",
+        "distance_km": 224.79324264960843,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Abia",
+        "neighbor_capital": "Umuahia",
+        "distance_km": 132.99690276192956,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Anambra",
+        "neighbor_capital": "Awka",
+        "distance_km": 70.15765225617413,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Ebonyi",
+        "neighbor_capital": "Abakaliki",
+        "distance_km": 89.33179214610932,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Imo",
+        "neighbor_capital": "Owerri",
+        "distance_km": 154.34845506571867,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Akwa Ibom",
+        "neighbor_capital": "Uyo",
+        "distance_km": 212.99659188768905,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Cross River",
+        "neighbor_capital": "Calabar",
+        "distance_km": 244.994150362368,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Delta",
+        "neighbor_capital": "Boji-Boji",
+        "distance_km": 187.14732941622276,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Edo",
+        "neighbor_capital": "Benin City",
+        "distance_km": 248.853819,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Rivers",
+        "neighbor_capital": "Port Harcourt",
+        "distance_km": 234.039656,
+        "is_geographic_neighbor": false
+      }
+    ]
+  },
+  {
+    "station_state": "Imo",
+    "station_capital": "Owerri",
+    "can_serve_count": 10,
+    "can_serve": [
+      {
+        "neighbor_state": "Abia",
+        "neighbor_capital": "Umuahia",
+        "distance_km": 66.44051527398598,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Anambra",
+        "neighbor_capital": "Awka",
+        "distance_km": 105.68063870628993,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Ebonyi",
+        "neighbor_capital": "Abakaliki",
+        "distance_km": 197.1262099368356,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Enugu",
+        "neighbor_capital": "Enugu",
+        "distance_km": 154.34845506571867,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Akwa Ibom",
+        "neighbor_capital": "Uyo",
+        "distance_km": 144.96486691747285,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Bayelsa",
+        "neighbor_capital": "Yenagoa",
+        "distance_km": 135.24373275907516,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Cross River",
+        "neighbor_capital": "Calabar",
+        "distance_km": 201.67136613841717,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Delta",
+        "neighbor_capital": "Boji-Boji",
+        "distance_km": 163.1441477128725,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Edo",
+        "neighbor_capital": "Benin City",
+        "distance_km": 236.59031606287945,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Rivers",
+        "neighbor_capital": "Port Harcourt",
+        "distance_km": 101.22834519738956,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Akwa Ibom",
+    "station_capital": "Uyo",
+    "can_serve_count": 8,
+    "can_serve": [
+      {
+        "neighbor_state": "Abia",
+        "neighbor_capital": "Umuahia",
+        "distance_km": 95.01705822350438,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Anambra",
+        "neighbor_capital": "Awka",
+        "distance_km": 210.71504759947808,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Ebonyi",
+        "neighbor_capital": "Abakaliki",
+        "distance_km": 188.2628039064343,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Enugu",
+        "neighbor_capital": "Enugu",
+        "distance_km": 212.99659188768905,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Imo",
+        "neighbor_capital": "Owerri",
+        "distance_km": 144.96486691747285,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Bayelsa",
+        "neighbor_capital": "Yenagoa",
+        "distance_km": 239.4893813036365,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Cross River",
+        "neighbor_capital": "Calabar",
+        "distance_km": 58.483781266929455,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Rivers",
+        "neighbor_capital": "Port Harcourt",
+        "distance_km": 137.34175225137355,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Bayelsa",
+    "station_capital": "Yenagoa",
+    "can_serve_count": 7,
+    "can_serve": [
+      {
+        "neighbor_state": "Abia",
+        "neighbor_capital": "Umuahia",
+        "distance_km": 195.2350153108233,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Anambra",
+        "neighbor_capital": "Awka",
+        "distance_km": 217.9040497853109,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Imo",
+        "neighbor_capital": "Owerri",
+        "distance_km": 135.24373275907516,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Akwa Ibom",
+        "neighbor_capital": "Uyo",
+        "distance_km": 239.4893813036365,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Delta",
+        "neighbor_capital": "Boji-Boji",
+        "distance_km": 192.44969824017707,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Edo",
+        "neighbor_capital": "Benin City",
+        "distance_km": 223.6484456340213,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Rivers",
+        "neighbor_capital": "Port Harcourt",
+        "distance_km": 108.7688424098122,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Cross River",
+    "station_capital": "Calabar",
+    "can_serve_count": 6,
+    "can_serve": [
+      {
+        "neighbor_state": "Abia",
+        "neighbor_capital": "Umuahia",
+        "distance_km": 145.51215130777928,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Ebonyi",
+        "neighbor_capital": "Abakaliki",
+        "distance_km": 199.1235721358992,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Enugu",
+        "neighbor_capital": "Enugu",
+        "distance_km": 244.994150362368,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Imo",
+        "neighbor_capital": "Owerri",
+        "distance_km": 201.67136613841717,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Akwa Ibom",
+        "neighbor_capital": "Uyo",
+        "distance_km": 58.483781266929455,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Rivers",
+        "neighbor_capital": "Port Harcourt",
+        "distance_km": 191.89376919408653,
+        "is_geographic_neighbor": false
+      }
+    ]
+  },
+  {
+    "station_state": "Delta",
+    "station_capital": "Boji-Boji",
+    "can_serve_count": 10,
+    "can_serve": [
+      {
+        "neighbor_state": "Kogi",
+        "neighbor_capital": "Lokoja",
+        "distance_km": 235.2392898736537,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Ekiti",
+        "neighbor_capital": "Ado-Ekiti",
+        "distance_km": 242.54592303033155,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Ondo",
+        "neighbor_capital": "Ondo",
+        "distance_km": 230.39863158582529,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Abia",
+        "neighbor_capital": "Umuahia",
+        "distance_km": 212.87777894442036,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Anambra",
+        "neighbor_capital": "Awka",
+        "distance_km": 123.79173385099148,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Enugu",
+        "neighbor_capital": "Enugu",
+        "distance_km": 187.14732941622276,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Imo",
+        "neighbor_capital": "Owerri",
+        "distance_km": 163.1441477128725,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Bayelsa",
+        "neighbor_capital": "Yenagoa",
+        "distance_km": 192.44969824017707,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Edo",
+        "neighbor_capital": "Benin City",
+        "distance_km": 84.1331996737627,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Rivers",
+        "neighbor_capital": "Port Harcourt",
+        "distance_km": 242.9375396704933,
+        "is_geographic_neighbor": false
+      }
+    ]
+  },
+  {
+    "station_state": "Edo",
+    "station_capital": "Benin City",
+    "can_serve_count": 7,
+    "can_serve": [
+      {
+        "neighbor_state": "Ekiti",
+        "neighbor_capital": "Ado-Ekiti",
+        "distance_km": 194.15466690407052,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Ondo",
+        "neighbor_capital": "Ondo",
+        "distance_km": 156.8958919478753,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Anambra",
+        "neighbor_capital": "Awka",
+        "distance_km": 207.7612778291725,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Enugu",
+        "neighbor_capital": "Enugu",
+        "distance_km": 248.853819,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Imo",
+        "neighbor_capital": "Owerri",
+        "distance_km": 236.59031606287945,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Bayelsa",
+        "neighbor_capital": "Yenagoa",
+        "distance_km": 223.6484456340213,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Delta",
+        "neighbor_capital": "Boji-Boji",
+        "distance_km": 84.1331996737627,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Rivers",
+    "station_capital": "Port Harcourt",
+    "can_serve_count": 8,
+    "can_serve": [
+      {
+        "neighbor_state": "Abia",
+        "neighbor_capital": "Umuahia",
+        "distance_km": 127.34985054153678,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Anambra",
+        "neighbor_capital": "Awka",
+        "distance_km": 206.89156731725603,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Enugu",
+        "neighbor_capital": "Enugu",
+        "distance_km": 234.039656,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Imo",
+        "neighbor_capital": "Owerri",
+        "distance_km": 101.22834519738956,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Akwa Ibom",
+        "neighbor_capital": "Uyo",
+        "distance_km": 137.34175225137355,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Bayelsa",
+        "neighbor_capital": "Yenagoa",
+        "distance_km": 108.7688424098122,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Cross River",
+        "neighbor_capital": "Calabar",
+        "distance_km": 191.89376919408653,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Delta",
+        "neighbor_capital": "Boji-Boji",
+        "distance_km": 242.9375396704933,
+        "is_geographic_neighbor": false
+      }
+    ]
+  },
+  {
+    "station_state": "Kwara",
+    "station_capital": "Ilorin",
+    "can_serve_count": 5,
+    "can_serve": [
+      {
+        "neighbor_state": "Niger",
+        "neighbor_capital": "Bida",
+        "distance_km": 226.0125846696855,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Ekiti",
+        "neighbor_capital": "Ado-Ekiti",
+        "distance_km": 159.59593162846645,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Ondo",
+        "neighbor_capital": "Ondo",
+        "distance_km": 207.7610475728105,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Oyo",
+        "neighbor_capital": "Ibadan",
+        "distance_km": 185.05381443317512,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Osun",
+        "neighbor_capital": "Oshogbo",
+        "distance_km": 103.20680511237131,
+        "is_geographic_neighbor": true
+      }
+    ]
+  },
+  {
+    "station_state": "Osun",
+    "station_capital": "Oshogbo",
+    "can_serve_count": 6,
+    "can_serve": [
+      {
+        "neighbor_state": "Ekiti",
+        "neighbor_capital": "Ado-Ekiti",
+        "distance_km": 99.95561511853968,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Lagos",
+        "neighbor_capital": "Ikeja",
+        "distance_km": 242.76227394348984,
+        "is_geographic_neighbor": false
+      },
+      {
+        "neighbor_state": "Ogun",
+        "neighbor_capital": "Abeokuta",
+        "distance_km": 193.08015167761096,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Ondo",
+        "neighbor_capital": "Ondo",
+        "distance_km": 108.8688165444364,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Oyo",
+        "neighbor_capital": "Ibadan",
+        "distance_km": 107.62938873629412,
+        "is_geographic_neighbor": true
+      },
+      {
+        "neighbor_state": "Kwara",
+        "neighbor_capital": "Ilorin",
+        "distance_km": 103.20680511237131,
+        "is_geographic_neighbor": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,129 @@
+================================================================
+  DATASET DESCRIPTION
+  File    : nigeria_state_dependency_ratio.json
+  Created : 2026-03-18  11:36:32
+================================================================
+
+TITLE
+  Nigeria Living Standards Survey - 2018/2019: Dependency Ratio by State
+
+OVERVIEW
+  This dataset provides state-level dependency ratio estimates
+  for all 36 states of Nigeria plus the Federal Capital
+  Territory (FCT), derived from the Nigeria Living Standards
+  Survey (NLSS) 2018/2019. The dependency ratio measures the
+  number of dependants (children and elderly) relative to the
+  working-age population in each state.
+
+  A ratio above 1.0 indicates more dependants than workers,
+  while a ratio below 1.0 indicates more workers than
+  dependants. It is a key socioeconomic indicator used in
+  labour market analysis, welfare planning, and transport
+  demand modelling.
+
+FILE FORMAT
+  Format      : JSON
+  Encoding    : UTF-8
+  Structure   : Top-level object with keys:
+                  "title"  — dataset title (string)
+                  "unit"   — measurement unit (string)
+                  "source" — data source reference (string)
+                  "data"   — array of 37 record objects
+
+SCHEMA
+  Field              Type    Description
+  -----------------  ------  -----------------------------------------
+  state              string  Nigerian state name or FCT
+  dependency_ratio   float   Ratio of dependants to working-age
+                             population (non-working / working)
+
+COVERAGE
+  Geographic   : Nigeria — all 36 states + FCT
+  Unit type    : State-level aggregate (no individual-level data)
+  Survey year  : 2018 / 2019
+  Records      : 37
+
+STATISTICAL SUMMARY
+  Unit             : Ratio
+  Minimum          : 0.24  (Borno)
+  Maximum          : 1.4  (Jigawa)
+  Mean             : 0.983
+  Interpretation   : Ratio > 1.0 = more dependants than workers
+                     Ratio < 1.0 = more workers than dependants
+
+  States covered :
+    Abia
+    Adamawa
+    Akwa Ibom
+    Anambra
+    Bauchi
+    Bayelsa
+    Benue
+    Borno
+    Cross River
+    Delta
+    Ebonyi
+    Edo
+    Ekiti
+    Enugu
+    FCT
+    Gombe
+    Imo
+    Jigawa
+    Kaduna
+    Kano
+    Katsina
+    Kebbi
+    Kogi
+    Kwara
+    Lagos
+    Nasarawa
+    Niger
+    Ogun
+    Ondo
+    Osun
+    Oyo
+    Plateau
+    Rivers
+    Sokoto
+    Taraba
+    Yobe
+    Zamfara
+
+PRIVACY & SENSITIVITY ASSESSMENT
+  PII present      : No
+  Sensitive values : None detected
+  Aggregation level: State-level aggregate (not individual/household)
+  Public release   : SUITABLE — fully aggregate, non-identifiable
+                     data from a published national survey
+
+DATA SOURCE
+  Nigeria Living Standards Survey - 2018/2019
+  Published by the National Bureau of Statistics (NBS), Nigeria.
+  Fieldwork conducted 2018–2019.
+  Available at: https://nigerianstat.gov.ng
+
+INTENDED USE
+  - K-means / clustering analysis of Nigerian states by
+    socioeconomic profile
+  - Labour market and welfare policy research
+  - Transport demand and mode choice modelling inputs
+  - Spatial visualisation and choropleth mapping
+
+LIMITATIONS
+  - Point-in-time estimate from the 2018/2019 survey cycle;
+    may not reflect current conditions
+  - State averages mask significant within-state variation
+    across LGAs, urban and rural zones
+  - Dependency ratio definition follows NBS methodology;
+    may differ from World Bank or ILO conventions
+
+LICENCE
+  TRAMSYS LAB
+
+CONTACT / MAINTAINER
+  Eni Solomon Laughter - Chang'an University
+
+================================================================
+  END OF DESCRIPTION
+================================================================

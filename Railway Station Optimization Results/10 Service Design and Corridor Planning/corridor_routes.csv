@@ -1,0 +1,14 @@
+corridor,from,to,distance_km
+Lagos-Abuja-Kano (North-South Spine),Ibadan,Ilorin,185.05381443317512
+Lagos-Abuja-Kano (North-South Spine),Ilorin,Abuja,358.0041205562102
+Lagos-Port Harcourt (Southern Coastal),Abeokuta,Ibadan,86.36720173658516
+Lagos-Port Harcourt (Southern Coastal),Ibadan,Benin City,288.223862
+Abuja-Port Harcourt (Central-South),Abuja,Lokoja,211.3549075612606
+Abuja-Port Harcourt (Central-South),Lokoja,Enugu,224.79324264960843
+Abuja-Port Harcourt (Central-South),Enugu,Owerri,154.34845506571867
+Abuja-Port Harcourt (Central-South),Owerri,Port Harcourt,101.22834519738956
+Kano-Maiduguri (Northern Belt),Kano,Bauchi,308.63598859006146
+Kano-Maiduguri (Northern Belt),Bauchi,Gombe,189.17978484489765
+Enugu-Calabar (Eastern),Enugu,Abakaliki,89.33179214610932
+Enugu-Calabar (Eastern),Abakaliki,Uyo,188.2628039064343
+Enugu-Calabar (Eastern),Uyo,Calabar,58.483781266929455

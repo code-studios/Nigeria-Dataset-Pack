@@ -1,0 +1,122 @@
+================================================================
+  DATASET DESCRIPTION
+  File    : nigeria_lga_population_by_state.xlsx
+  Created : 2026-03-18  12:03:01
+================================================================
+
+TITLE
+  Nigeria LGA Population by State
+
+OVERVIEW
+  This dataset provides Local Government Area (LGA) level
+  population figures for Nigerian states. The original source
+  file was structured in a wide side-by-side format (one pair
+  of columns per state), which has been reshaped into a clean
+  long-format table (State, LGA, Population) for analysis.
+
+  The Excel workbook contains two sheets:
+    1. "All LGAs"      — full long-format record of all LGAs
+    2. "State Summary" — aggregated stats per state (LGA count,
+                         total population, mean, min, max)
+
+  The original wide-format file is also preserved as:
+    nigeria_lga_population_by_state_original_wide_format.xlsx
+
+FILE FORMAT
+  Primary   : nigeria_lga_population_by_state.xlsx  (reshaped, long format)
+  Secondary : nigeria_lga_population_by_state_original_wide_format.xlsx  (original wide format)
+  Encoding  : UTF-8
+
+SCHEMA  (All LGAs sheet)
+  Field        Type    Description
+  -----------  ------  ----------------------------------------
+  State        string  Nigerian state or FCT name
+  LGA          string  Local Government Area name
+  Population   int     LGA population estimate
+
+COVERAGE
+  States       : 36 states + FCT
+  Total LGAs   : 749
+  Missing data : BAUCHI
+
+  States included:
+    ABIA
+    ADAMAWA
+    AKWA-IBOM
+    ANAMBRA
+    BAYELSA
+    BENUE
+    BORNO
+    CROSS-RIVER
+    DELTA
+    EBONYI
+    EDO
+    EKITI
+    ENUGU
+    FCT
+    GOMBE
+    IMO
+    JIGAWA
+    KADUNA
+    KANO
+    KASTINA
+    KEBBI
+    KOGI
+    KWARA
+    LAGOS
+    NASARAWA
+    NIGER
+    OGUN
+    ONDO
+    OSUN
+    OYO
+    PLATEAU
+    RIVERS
+    SOKOTO
+    TARABA
+    YOBE
+    ZAMFARA
+
+STATISTICAL SUMMARY
+  Total population (sum of all LGAs) : 188,043,424
+  Mean LGA population                : 251,059
+  Largest LGA   : Alimosho (LAGOS) — 5,700,714
+  Smallest LGA  : Disputed Areas (TARABA) — 26,700
+
+PRIVACY & SENSITIVITY ASSESSMENT
+  PII present      : No
+  Sensitive values : None detected
+  Aggregation level: LGA-level aggregate (not individual data)
+  Public release   : SUITABLE — aggregate population counts
+                     from a published administrative dataset
+
+DATA SOURCE
+  Author  : JAMIU Bdulhafeez
+  Company : ECOBANK TRANSNATIONAL INCORPORATED
+  Note    : Original data year not specified in source file.
+            Population figures are consistent with NBS 2006
+            census projections but have not been independently
+            verified against a published NBS release.
+
+INTENDED USE
+  - K-means and spatial clustering of Nigerian LGAs
+  - Population-weighted analysis and mapping
+  - Transport demand estimation and accessibility modelling
+  - Administrative boundary reference for GIS work
+
+LIMITATIONS
+  - Population year / census reference not stated in source
+  - BAUCHI state data was absent from the source file
+  - Wide-to-long reshaping may have excluded rows where
+    both LGA name and population were blank
+  - LGA names may have spelling variants vs. official NBS list
+
+LICENCE
+  TRAMSYS LAB
+
+CONTACT / MAINTAINER
+  Eni Solomon Laughter - Chang'an University
+
+================================================================
+  END OF DESCRIPTION
+================================================================

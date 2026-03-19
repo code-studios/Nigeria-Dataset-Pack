@@ -1,0 +1,14 @@
+{
+  "total_services": 15,
+  "service_types": {
+    "EXPRESS": 1,
+    "SEMI-EXPRESS": 3,
+    "SMART": 3,
+    "LOCAL": 8
+  },
+  "avg_stops_per_service": 2.6666666666666665,
+  "avg_time_hours": 1.0704243739160413,
+  "total_daily_trains": 122,
+  "stations_with_service": 13,
+  "underutilized_stations": 2
+}

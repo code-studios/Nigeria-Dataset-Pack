@@ -1,0 +1,71 @@
+================================================================
+  DATASET DESCRIPTION
+  Files   : adjacency_matrix_geographic.csv
+            adjacency_matrix_functional.csv
+            redundancy_zones.csv
+  Group   : 04 — Network Adjacency and Redundancy
+  Created : 2026-03-18  12:39:44
+================================================================
+
+TITLE
+  Nigeria State Capital Adjacency Matrices and
+  Station Redundancy Zone Identification
+
+OVERVIEW
+  Three datasets encoding spatial proximity relationships
+  between state capitals at the geographic (border-sharing)
+  and functional (HSR-proximity) levels, plus identified
+  redundancy zones where nearby station pairs would
+  duplicate coverage.
+
+HOW THEY WERE GENERATED
+  adjacency_matrix_geographic.csv  (37×37 binary)
+    Value = 1 if the two states share a land border;
+    0 otherwise. Derived from official Nigerian state
+    border topology data.
+
+  adjacency_matrix_functional.csv  (37×37 binary)
+    Value = 1 if capitals are within 150 km OR within
+    60 minutes at 250 km/h HSR speed; 0 otherwise.
+    Computed from distance_matrix.csv and hsr_time_matrix.csv.
+
+  redundancy_zones.csv  (10 pairs)
+    Capital pairs with inter-city distance < 100 km,
+    flagged as potential station redundancy risks. Includes
+    a flag indicating whether the pair are also geographic
+    neighbours.
+
+PURPOSE
+  Geographic adjacency guided zone-balance constraints
+  (minimum 1 station per geopolitical zone). Functional
+  adjacency defined the λ redundancy penalty in the
+  modified K-means objective function. Redundancy zones
+  informed station spacing enforcement (80 km minimum).
+
+VIEWING ORDER
+  Dataset #4 — review after demand analysis.
+
+SCHEMA — redundancy_zones.csv
+  capital_1, capital_2, state_1, state_2,
+  distance_km, geographic_neighbors
+
+REDUNDANCY PAIRS IDENTIFIED (10):
+  Ado-Ekiti ↔ Ondo  (94.0 km)
+  Ado-Ekiti ↔ Oshogbo  (100.0 km)
+  Ikeja ↔ Abeokuta  (81.0 km)
+  Abeokuta ↔ Ibadan  (86.4 km)
+  Umuahia ↔ Owerri  (66.4 km)
+  Umuahia ↔ Uyo  (95.0 km)
+  Awka ↔ Enugu  (70.2 km)
+  Abakaliki ↔ Enugu  (89.3 km)
+  Uyo ↔ Calabar  (58.5 km)
+  Boji-Boji ↔ Benin City  (84.1 km)
+
+LICENCE
+  TRAMSYS LAB
+
+CONTACT / MAINTAINER
+  Eni Solomon Laughter - Chang'an University
+================================================================
+  END OF DESCRIPTION
+================================================================

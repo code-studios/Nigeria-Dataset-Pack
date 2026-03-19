@@ -1,0 +1,125 @@
+================================================================
+  DATASET DESCRIPTION
+  File    : nigeria_lga_population_socioeconomic_indicators.csv
+  Created : 2026-03-18  11:55:46
+================================================================
+
+TITLE
+  Nigeria LGA-Level Population and Socioeconomic Indicators
+  (2010–2024)
+
+OVERVIEW
+  This dataset provides a multi-year panel of demographic,
+  economic, and social indicators at the Local Government Area
+  (LGA) level for five Nigerian states: Lagos, Rivers, Enugu,
+  Kano, and Kaduna. It spans the period 2010–2024 and covers
+  20 LGAs with 25 indicator variables per record.
+
+  Variables include population size and structure, urban/rural
+  split, birth and death rates, migration, literacy, education,
+  employment, healthcare access, poverty, and housing deficit.
+  It is suited for longitudinal socioeconomic analysis,
+  clustering, and transport demand modelling.
+
+FILE FORMAT
+  Format      : CSV (comma-delimited)
+  Encoding    : UTF-8
+  Rows        : 200 (excluding header)
+  Columns     : 25
+
+SCHEMA
+  Field                      Type     Description
+  --------------------------  -------  ----------------------------
+  Year                       int      Survey/reference year (2010–2024)
+  State                      string   Nigerian state name
+  LGA                        string   Local Government Area name
+  Population                 int      Total LGA population estimate
+  Area_sqkm                  float    LGA area in square kilometres
+  Population Density         float    Persons per sq km
+  Urban %                    float    Share of population in urban areas (%)
+  Rural %                    float    Share of population in rural areas (%)
+  Male Population            int      Estimated male population
+  Female Population          int      Estimated female population
+  Youth %                    float    Share of population aged 15–35 (%)
+  Elderly %                  float    Share of population aged 60+ (%)
+  Growth Rate                float    Annual population growth rate (%)
+  Birth Rate                 float    Crude birth rate per 1,000 population
+  Death Rate                 float    Crude death rate per 1,000 population
+  Migration Rate             float    Net migration rate (negative = net emigration)
+  Median Age                 float    Median age of population (years)
+  Urbanization Level         float    Urbanisation index score (%)
+  Literacy %                 float    Adult literacy rate (%)
+  Education Index            float    Composite education index (0–1 scale)
+  Employment Rate            float    Share of working-age population employed (%)
+  Unemployment %             float    Unemployment rate (%)
+  Healthcare Access          float    Share of population with healthcare access (%)
+  Poverty Rate %             float    Share of population below poverty line (%)
+  Housing Deficit            int      Estimated housing unit shortfall
+
+COVERAGE
+  States (5)     : Enugu, Kaduna, Kano, Lagos, Rivers
+  LGAs   (20)       : Awgu, Bichi, Bonny, Chikun, Eleme, Epe, Gwale, Ikeja, Ikorodu, Kagarko, Nassarawa, Nsukka, Obio/Akpor, Oji River, Port Harcourt, Sabon Gari, Surulere, Tarauni, Udi, Zaria
+  Years           : 2010 – 2024
+  Records per state:
+    Enugu                 46 records
+    Kaduna                40 records
+    Kano                  33 records
+    Lagos                 43 records
+    Rivers                38 records
+
+  Note: Coverage is limited to 5 of Nigeria's 36 states.
+  This dataset does not represent a nationally
+  representative sample.
+
+STATISTICAL HIGHLIGHTS
+  Population
+    Min  : 58,460    Max : 993,121    Mean : 561,648
+  Population Density (per sq km)
+    Min  : 90.13   Max : 14,418.25
+  Unemployment %
+    Min  : 10.1%   Max : 39.9%   Mean : 25.25%
+  Poverty Rate %
+    Min  : 10.0%   Max : 69.7%   Mean : 37.39%
+  Literacy %
+    Min  : 50.0%   Max : 94.8%   Mean : 71.52%
+
+PRIVACY & SENSITIVITY ASSESSMENT
+  PII present      : No
+  Sensitive values : None detected
+  Aggregation level: LGA-level aggregate (not individual data)
+  Public release   : SUITABLE — all indicators are aggregate
+                     and non-identifiable
+
+DATA SOURCE
+  Source file received via WhatsApp share (DOC-20241218-WA0007).
+  Original compilation source unconfirmed. Data values are
+  consistent with NBS Nigeria estimates but have not been
+  independently verified. Users should treat figures as
+  indicative estimates and cross-check against official NBS,
+  NDHS, or World Bank sources before citing in publications.
+
+INTENDED USE
+  - K-means and hierarchical clustering of Nigerian LGAs
+  - Longitudinal socioeconomic trend analysis (2010–2024)
+  - Transport demand and mode choice modelling inputs
+  - Poverty and healthcare accessibility mapping
+  - Urban planning and infrastructure policy research
+
+LIMITATIONS
+  - Covers only 5 of 36 Nigerian states — not nationally
+    representative
+  - Original data source unverified; treat as estimates
+  - Rural % and Urban % do not always sum to exactly 100
+    due to rounding in source data
+  - Housing Deficit definition and methodology not specified
+    in source
+
+LICENCE
+  TRAMSYS LAB
+
+CONTACT / MAINTAINER
+  Eni Solomon Laughter - Chang'an University
+
+================================================================
+  END OF DESCRIPTION
+================================================================

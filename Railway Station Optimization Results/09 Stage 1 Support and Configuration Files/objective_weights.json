@@ -1,0 +1,14 @@
+{
+  "cost_focused": {
+    "alpha": 0.7,
+    "beta": 0.3
+  },
+  "balanced": {
+    "alpha": 0.5,
+    "beta": 0.5
+  },
+  "access_focused": {
+    "alpha": 0.3,
+    "beta": 0.7
+  }
+}

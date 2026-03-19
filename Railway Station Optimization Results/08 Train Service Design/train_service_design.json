@@ -1,0 +1,185 @@
+{
+  "Train 1": {
+    "origin": "Umuahia",
+    "destination": "Birnin Kebbi",
+    "forward_path": [
+      "Umuahia",
+      "Enugu",
+      "Abuja",
+      "Birnin Kebbi"
+    ],
+    "return_path": [
+      "Birnin Kebbi",
+      "Abuja",
+      "Enugu",
+      "Umuahia"
+    ],
+    "full_loop": [
+      "Umuahia",
+      "Enugu",
+      "Abuja",
+      "Birnin Kebbi",
+      "Abuja",
+      "Enugu",
+      "Umuahia"
+    ],
+    "unique_stations": [
+      "Umuahia",
+      "Enugu",
+      "Abuja",
+      "Birnin Kebbi"
+    ],
+    "all_stops": {
+      "num_stops": 4,
+      "time_hours": 9.069119990389542
+    },
+    "limited_stops": {
+      "forward": [
+        "Umuahia",
+        "Enugu",
+        "Birnin Kebbi"
+      ],
+      "skipped": [
+        "Abuja"
+      ],
+      "num_stops": 3,
+      "time_hours": 8.985786657056208
+    }
+  },
+  "Train 2": {
+    "origin": "Chigo",
+    "destination": "Hausari",
+    "forward_path": [
+      "Chigo",
+      "Abuja",
+      "Funtua",
+      "Dutse",
+      "Damaturu",
+      "Hausari"
+    ],
+    "return_path": [
+      "Hausari",
+      "Damaturu",
+      "Dutse",
+      "Funtua",
+      "Abuja",
+      "Chigo"
+    ],
+    "full_loop": [
+      "Chigo",
+      "Abuja",
+      "Funtua",
+      "Dutse",
+      "Damaturu",
+      "Hausari",
+      "Damaturu",
+      "Dutse",
+      "Funtua",
+      "Abuja",
+      "Chigo"
+    ],
+    "unique_stations": [
+      "Chigo",
+      "Abuja",
+      "Funtua",
+      "Dutse",
+      "Damaturu",
+      "Hausari"
+    ],
+    "all_stops": {
+      "num_stops": 6,
+      "time_hours": 13.073607135692837
+    },
+    "limited_stops": {
+      "forward": [
+        "Chigo",
+        "Abuja",
+        "Dutse",
+        "Hausari"
+      ],
+      "skipped": [
+        "Funtua",
+        "Damaturu"
+      ],
+      "num_stops": 4,
+      "time_hours": 12.906940469026171
+    }
+  },
+  "Train 3": {
+    "origin": "Abeokuta",
+    "destination": "Yola",
+    "forward_path": [
+      "Abeokuta",
+      "Oshogbo",
+      "Boji-Boji",
+      "Enugu",
+      "Abuja",
+      "Funtua",
+      "Bauchi",
+      "Gombe",
+      "Yola"
+    ],
+    "return_path": [
+      "Yola",
+      "Gombe",
+      "Bauchi",
+      "Funtua",
+      "Abuja",
+      "Enugu",
+      "Boji-Boji",
+      "Oshogbo",
+      "Abeokuta"
+    ],
+    "full_loop": [
+      "Abeokuta",
+      "Oshogbo",
+      "Boji-Boji",
+      "Enugu",
+      "Abuja",
+      "Funtua",
+      "Bauchi",
+      "Gombe",
+      "Yola",
+      "Gombe",
+      "Bauchi",
+      "Funtua",
+      "Abuja",
+      "Enugu",
+      "Boji-Boji",
+      "Oshogbo",
+      "Abeokuta"
+    ],
+    "unique_stations": [
+      "Abeokuta",
+      "Oshogbo",
+      "Boji-Boji",
+      "Enugu",
+      "Abuja",
+      "Funtua",
+      "Bauchi",
+      "Gombe",
+      "Yola"
+    ],
+    "all_stops": {
+      "num_stops": 9,
+      "time_hours": 18.5531334728544
+    },
+    "limited_stops": {
+      "forward": [
+        "Abeokuta",
+        "Oshogbo",
+        "Enugu",
+        "Funtua",
+        "Gombe",
+        "Yola"
+      ],
+      "skipped": [
+        "Boji-Boji",
+        "Abuja",
+        "Bauchi"
+      ],
+      "num_stops": 6,
+      "time_hours": 18.3031334728544
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "cities_summary": {
+    "total_cities": 28874,
+    "total_states": 44,
+    "total_population": 1026963844,
+    "capitals_identified": 44
+  },
+  "capitals_count": 44,
+  "traffic_routes": 896,
+  "datasets_loaded": {
+    "cities_data": true,
+    "population_csv": true,
+    "states_population_xlsx": true,
+    "traffic_csv": true,
+    "major_cities_json": true,
+    "living_json": true,
+    "others_json": true,
+    "unemployment_json": true
+  }
+}

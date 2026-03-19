@@ -1,0 +1,76 @@
+================================================================
+  DATASET DESCRIPTION
+  File    : nigeria_state_unemployment_rate.json
+  Created : 2026-03-18  11:03:48
+================================================================
+
+TITLE
+  Data Extraction from Bar Charts
+
+OVERVIEW
+  This dataset contains state-level unemployment rate estimates
+  for all 36 states of Nigeria plus the Federal Capital Territory
+  (FCT), giving full national coverage of 37 administrative
+  units. Each record reports the unemployment rate as a percentage
+  of the labour force for the respective state.
+
+  It is intended for use in spatial analysis, socioeconomic
+  modelling, clustering studies (e.g. K-means segmentation of
+  Nigerian states by labour market conditions), and policy
+  research.
+
+FILE FORMAT
+  Format      : JSON
+  Encoding    : UTF-8
+  Structure   : Top-level object with keys:
+                  "title"  — dataset title (string)
+                  "unit"   — measurement unit (string)
+                  "data"   — array of 37 record objects
+
+SCHEMA
+  Field        Type     Description
+  -----------  -------  -------------------------------------------
+  state        string   Name of the Nigerian state or FCT
+  percentage   float    Unemployment rate (% of labour force)
+
+COVERAGE
+  Geographic   : Nigeria — all 36 states + FCT
+  Unit type    : State-level aggregate (no individual-level data)
+  Records      : 37
+
+STATISTICAL SUMMARY
+  Unit             : Percentage (%)
+  Minimum          : 0.5%  (Nasarawa)
+  Maximum          : 18.7%  (Abia)
+  Mean             : 5.49%
+  States covered   : Abia, Adamawa, Akwa Ibom, Anambra, Bauchi, Bayelsa, Benue, Borno, Cross River, Delta, Ebonyi, Edo, Ekiti, Enugu, FCT, Gombe, Imo, Jigawa, Kaduna, Kano, Katsina, Kebbi, Kogi, Kwara, Lagos, Nasarawa, Niger, Ogun, Ondo, Osun, Oyo, Plateau, Rivers, Sokoto, Taraba, Yobe, Zamfara
+
+PRIVACY & SENSITIVITY ASSESSMENT
+  PII present      : No
+  Sensitive values : None detected
+  Aggregation level: State-level (not individual/household)
+  Public release   : SUITABLE — aggregate, anonymised, non-sensitive
+
+DATA SOURCE
+  [likely World Bank / Africa open data portal — to be confirmed]
+
+INTENDED USE
+  - Academic and policy research
+  - K-means / clustering analysis of Nigerian labour markets
+  - Choropleth mapping and spatial visualisation
+  - Input feature for transport mode choice or socioeconomic models
+
+LIMITATIONS
+  - Point-in-time estimate; does not reflect temporal trends
+  - State averages mask within-state variation (rural vs urban)
+  - Unemployment definitions may vary across survey editions
+
+LICENCE
+  [TRAMSYS LAB 2026]
+
+CONTACT / MAINTAINER
+  [Eni Solomon Laughter - Chang'an Univeristy]
+
+================================================================
+  END OF DESCRIPTION
+================================================================

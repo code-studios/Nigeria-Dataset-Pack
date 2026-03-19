@@ -1,0 +1,73 @@
+================================================================
+  DATASET DESCRIPTION
+  File    : master_dataset.csv
+  Group   : 01 — Master Dataset
+  Created : 2026-03-18  12:39:44
+================================================================
+
+TITLE
+  Nigeria State Capitals — Integrated Feature Dataset for
+  High-Speed Railway Station Optimization
+
+OVERVIEW
+  This is the core reference dataset for the full railway
+  optimization study. It consolidates demographic, geographic,
+  socioeconomic, and infrastructure indicators for all 37
+  Nigerian state capitals (36 states + FCT), forming the
+  unified feature matrix used in all downstream analyses.
+
+HOW IT WAS GENERATED
+  Compiled by merging five raw data sources:
+    1. Nigeria Cities Data (JSON) — geographic coordinates
+    2. Nigeria Living Standards Survey JSON — dependency ratio
+    3. Nigeria Sociodemographic Indicators JSON — rural %, road
+       condition index
+    4. Nigeria State Unemployment Rate JSON — unemployment %
+    5. Population data — state capital populations
+  Derived features (population_weight, urbanization_index,
+  infrastructure_quality, economic_proxy, tier) were computed
+  from the merged fields. Tier classification thresholds:
+    Tier 1: population > 5,000,000
+    Tier 2: population 1,000,000–5,000,000
+    Tier 3: population < 1,000,000
+
+PURPOSE
+  Serves as the input to all distance, demand, adjacency, and
+  optimization computations. Every other dataset in this
+  release is derived from or indexed against this master table.
+
+VIEWING ORDER
+  Start here — this is Dataset #1 in the sequence.
+
+FILE FORMAT
+  CSV, UTF-8, 37 rows × 17 columns
+
+SCHEMA
+  Column                           Description
+  ─────────────────────────────── ─────────────────────────────────────
+  state                           Nigerian state name
+  capital_city                    State capital city name
+  latitude                        WGS84 decimal degrees
+  longitude                       WGS84 decimal degrees
+  population                      City population estimate
+  zone                            Geopolitical zone (6 zones)
+  known_capital                   Official capital name reference
+  dependency_ratio                NBS NLSS 2018/19 dependency ratio
+  rural_residence_percent         Rural population share (%)
+  road_condition_index_pct_poor   Share of roads rated poor (%)
+  unemployment_percent            State unemployment rate (%)
+  population_weight               Normalized population (0–1)
+  urbanization_index              Composite urbanization score
+  infrastructure_quality          Composite infrastructure score
+  economic_proxy                  Composite economic weight
+  tier                            City size tier (Tier 1/2/3)
+  demand_centrality               Gravity-model demand centrality
+
+LICENCE
+  TRAMSYS LAB
+
+CONTACT / MAINTAINER
+  Eni Solomon Laughter - Chang'an University
+================================================================
+  END OF DESCRIPTION
+================================================================

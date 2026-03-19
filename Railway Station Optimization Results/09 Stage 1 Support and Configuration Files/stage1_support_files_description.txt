@@ -1,0 +1,93 @@
+================================================================
+  DATASET DESCRIPTION
+  Files   : data_summary_report.json
+            objective_weights.json
+            stage1_summary.json
+            scenario1_spacing_violations.csv
+            station_sharing_rules.json
+            multi_served_capitals.json
+  Group   : 09 — Stage 1 Support and Configuration Files
+  Created : 2026-03-18  12:51:16
+================================================================
+
+TITLE
+  Stage 1 Preliminary Audit, Configuration, and Network
+  Sharing Rule Files
+
+OVERVIEW
+  Six support files produced during Stage 1 data preparation.
+  These capture the preliminary data audit findings, objective
+  function weight presets, Stage 1 completion state, spacing
+  constraint violations, and station service sharing rules
+  for the Nigerian state capital network.
+
+HOW EACH FILE WAS GENERATED
+
+  data_summary_report.json  (step0.py)
+    Output of the initial data audit script that loaded and
+    assessed all 8 raw source datasets before integration.
+    Records which datasets loaded successfully, how many
+    capitals and traffic routes were identified, and flags
+    that duplicate state name variants (e.g. "Anambra" vs
+    "Anambra State") needed cleaning — producing 44 apparent
+    capitals that were later cleaned to 37.
+
+  objective_weights.json  (step1others.py)
+    Three preset weight configurations for the Stage 2
+    objective function:
+      cost_focused  : α=0.7, β=0.3 (minimise network length)
+      balanced      : α=0.5, β=0.5 (equal priority)
+      access_focused: α=0.3, β=0.7 (maximise accessibility)
+    These are applied in combination with λ (redundancy
+    penalty) during the modified K-means sweep.
+
+  stage1_summary.json  (step1others.py)
+    Machine-readable completion record for all Stage 1
+    deliverables: lists output files, data quality metrics
+    (coverage, null counts, actual vs estimated distances),
+    and confirms readiness for Stage 2.
+
+  scenario1_spacing_violations.csv  (step1others.py)
+    3 capital pairs that violate the 80 km minimum
+    station spacing constraint under Scenario 1 (all capitals
+    have stations). These pairs are geographically close and
+    represent redundancy risks. Identical to the
+    redundancy_zones.csv content but computed independently
+    via the constraint checker.
+    Pairs: Umuahia ↔ Owerri (66.4 km) | Awka ↔ Enugu (70.2 km) | Uyo ↔ Calabar (58.5 km)
+
+  station_sharing_rules.json  (step1_5_redundancy.py)
+    For each of 36 potential hub stations: lists which
+    other capitals fall within its 150 km functional service
+    zone and could be served without a dedicated station.
+    Used to inform the "max distance to station" constraint
+    in Scenario 2 (≤150 km) and to identify which non-station
+    capitals could be served by nearby HSR stops.
+
+  multi_served_capitals.json  (step1_5_redundancy.py)
+    34 of 37 capitals that lie within the
+    functional zone (≤150 km) of 2 or more other capitals,
+    meaning they could potentially be served by multiple
+    neighbouring stations. This informs the redundancy
+    penalty formulation — placing stations too close creates
+    overlapping service zones.
+
+PURPOSE
+  Collectively these files document the Stage 1 decision
+  trail: why certain constraints were set, which data quality
+  issues were identified, and how the service sharing rules
+  were derived. Essential for reproducibility and peer review.
+
+VIEWING ORDER
+  Dataset #9 — supplementary to Groups 01–05. Review
+  alongside Group 05 (Constraints and Parameters) for full
+  context on how constraint values were determined.
+
+LICENCE
+  TRAMSYS LAB
+
+CONTACT / MAINTAINER
+  Eni Solomon Laughter - Chang'an University
+================================================================
+  END OF DESCRIPTION
+================================================================

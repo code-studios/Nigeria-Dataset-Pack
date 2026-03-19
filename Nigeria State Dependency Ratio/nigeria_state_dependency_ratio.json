@@ -1,0 +1,155 @@
+{
+  "title": "Nigeria Living Standards Survey - 2018/2019: Dependency Ratio by State",
+  "unit": "Ratio",
+  "source": "Nigeria Living Standards Survey - 2018/2019",
+  "data": [
+    {
+      "state": "Abia",
+      "dependency_ratio": 0.95
+    },
+    {
+      "state": "Adamawa",
+      "dependency_ratio": 0.97
+    },
+    {
+      "state": "Akwa Ibom",
+      "dependency_ratio": 0.83
+    },
+    {
+      "state": "Anambra",
+      "dependency_ratio": 0.98
+    },
+    {
+      "state": "Bauchi",
+      "dependency_ratio": 1.27
+    },
+    {
+      "state": "Bayelsa",
+      "dependency_ratio": 0.70
+    },
+    {
+      "state": "Benue",
+      "dependency_ratio": 0.93
+    },
+    {
+      "state": "Borno",
+      "dependency_ratio": 0.24
+    },
+    {
+      "state": "Cross River",
+      "dependency_ratio": 0.72
+    },
+    {
+      "state": "Delta",
+      "dependency_ratio": 0.88
+    },
+    {
+      "state": "Ebonyi",
+      "dependency_ratio": 1.07
+    },
+    {
+      "state": "Edo",
+      "dependency_ratio": 0.91
+    },
+    {
+      "state": "Ekiti",
+      "dependency_ratio": 0.75
+    },
+    {
+      "state": "Enugu",
+      "dependency_ratio": 0.98
+    },
+    {
+      "state": "Gombe",
+      "dependency_ratio": 1.18
+    },
+    {
+      "state": "Imo",
+      "dependency_ratio": 0.97
+    },
+    {
+      "state": "Jigawa",
+      "dependency_ratio": 1.40
+    },
+    {
+      "state": "Kaduna",
+      "dependency_ratio": 1.07
+    },
+    {
+      "state": "Kano",
+      "dependency_ratio": 1.28
+    },
+    {
+      "state": "Katsina",
+      "dependency_ratio": 1.31
+    },
+    {
+      "state": "Kebbi",
+      "dependency_ratio": 1.24
+    },
+    {
+      "state": "Kogi",
+      "dependency_ratio": 0.90
+    },
+    {
+      "state": "Kwara",
+      "dependency_ratio": 0.99
+    },
+    {
+      "state": "Lagos",
+      "dependency_ratio": 0.63
+    },
+    {
+      "state": "Nasarawa",
+      "dependency_ratio": 1.05
+    },
+    {
+      "state": "Niger",
+      "dependency_ratio": 1.22
+    },
+    {
+      "state": "Ogun",
+      "dependency_ratio": 0.79
+    },
+    {
+      "state": "Ondo",
+      "dependency_ratio": 0.90
+    },
+    {
+      "state": "Osun",
+      "dependency_ratio": 0.93
+    },
+    {
+      "state": "Oyo",
+      "dependency_ratio": 0.92
+    },
+    {
+      "state": "Plateau",
+      "dependency_ratio": 0.93
+    },
+    {
+      "state": "Rivers",
+      "dependency_ratio": 0.78
+    },
+    {
+      "state": "Sokoto",
+      "dependency_ratio": 1.20
+    },
+    {
+      "state": "Taraba",
+      "dependency_ratio": 1.03
+    },
+    {
+      "state": "Yobe",
+      "dependency_ratio": 1.37
+    },
+    {
+      "state": "Zamfara",
+      "dependency_ratio": 1.22
+    },
+    {
+      "state": "FCT",
+      "dependency_ratio": 0.89
+    }
+  ]
+}

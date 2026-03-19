@@ -1,0 +1,298 @@
+[
+  {
+    "state": "Abia",
+    "rural_residence_percent": 35.2,
+    "disability_prevalence_percent": 12.5,
+    "ethnic_diversity_index": 0.35,
+    "road_condition_index_percent_poor": 55.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Adamawa",
+    "rural_residence_percent": 72.1,
+    "disability_prevalence_percent": 10.8,
+    "ethnic_diversity_index": 0.65,
+    "road_condition_index_percent_poor": 75.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Akwa Ibom",
+    "rural_residence_percent": 42.3,
+    "disability_prevalence_percent": 14.2,
+    "ethnic_diversity_index": 0.45,
+    "road_condition_index_percent_poor": 60.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Anambra",
+    "rural_residence_percent": 28.5,
+    "disability_prevalence_percent": 9.8,
+    "ethnic_diversity_index": 0.25,
+    "road_condition_index_percent_poor": 50.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Bauchi",
+    "rural_residence_percent": 78.4,
+    "disability_prevalence_percent": 11.2,
+    "ethnic_diversity_index": 0.40,
+    "road_condition_index_percent_poor": 80.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Bayelsa",
+    "rural_residence_percent": 65.7,
+    "disability_prevalence_percent": 16.1,
+    "ethnic_diversity_index": 0.55,
+    "road_condition_index_percent_poor": 70.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Benue",
+    "rural_residence_percent": 74.2,
+    "disability_prevalence_percent": 10.5,
+    "ethnic_diversity_index": 0.70,
+    "road_condition_index_percent_poor": 68.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Borno",
+    "rural_residence_percent": 82.6,
+    "disability_prevalence_percent": 8.7,
+    "ethnic_diversity_index": 0.30,
+    "road_condition_index_percent_poor": 85.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Cross River",
+    "rural_residence_percent": 58.9,
+    "disability_prevalence_percent": 13.4,
+    "ethnic_diversity_index": 0.60,
+    "road_condition_index_percent_poor": 65.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Delta",
+    "rural_residence_percent": 48.1,
+    "disability_prevalence_percent": 12.9,
+    "ethnic_diversity_index": 0.75,
+    "road_condition_index_percent_poor": 58.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Ebonyi",
+    "rural_residence_percent": 62.4,
+    "disability_prevalence_percent": 11.0,
+    "ethnic_diversity_index": 0.28,
+    "road_condition_index_percent_poor": 62.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Edo",
+    "rural_residence_percent": 41.7,
+    "disability_prevalence_percent": 13.7,
+    "ethnic_diversity_index": 0.50,
+    "road_condition_index_percent_poor": 55.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Ekiti",
+    "rural_residence_percent": 55.3,
+    "disability_prevalence_percent": 10.2,
+    "ethnic_diversity_index": 0.32,
+    "road_condition_index_percent_poor": 52.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Enugu",
+    "rural_residence_percent": 33.8,
+    "disability_prevalence_percent": 9.5,
+    "ethnic_diversity_index": 0.22,
+    "road_condition_index_percent_poor": 48.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "FCT (Abuja)",
+    "rural_residence_percent": 15.0,
+    "disability_prevalence_percent": 12.0,
+    "ethnic_diversity_index": 0.85,
+    "road_condition_index_percent_poor": 45.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Gombe",
+    "rural_residence_percent": 76.5,
+    "disability_prevalence_percent": 9.9,
+    "ethnic_diversity_index": 0.45,
+    "road_condition_index_percent_poor": 78.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Imo",
+    "rural_residence_percent": 30.1,
+    "disability_prevalence_percent": 8.9,
+    "ethnic_diversity_index": 0.26,
+    "road_condition_index_percent_poor": 50.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Jigawa",
+    "rural_residence_percent": 85.2,
+    "disability_prevalence_percent": 10.1,
+    "ethnic_diversity_index": 0.18,
+    "road_condition_index_percent_poor": 82.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Kaduna",
+    "rural_residence_percent": 68.7,
+    "disability_prevalence_percent": 11.5,
+    "ethnic_diversity_index": 0.60,
+    "road_condition_index_percent_poor": 72.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Kano",
+    "rural_residence_percent": 70.4,
+    "disability_prevalence_percent": 9.3,
+    "ethnic_diversity_index": 0.20,
+    "road_condition_index_percent_poor": 75.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Katsina",
+    "rural_residence_percent": 81.9,
+    "disability_prevalence_percent": 8.5,
+    "ethnic_diversity_index": 0.15,
+    "road_condition_index_percent_poor": 80.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Kebbi",
+    "rural_residence_percent": 83.6,
+    "disability_prevalence_percent": 10.4,
+    "ethnic_diversity_index": 0.25,
+    "road_condition_index_percent_poor": 78.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Kogi",
+    "rural_residence_percent": 67.8,
+    "disability_prevalence_percent": 11.8,
+    "ethnic_diversity_index": 0.68,
+    "road_condition_index_percent_poor": 65.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Kwara",
+    "rural_residence_percent": 64.2,
+    "disability_prevalence_percent": 12.1,
+    "ethnic_diversity_index": 0.55,
+    "road_condition_index_percent_poor": 60.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Lagos",
+    "rural_residence_percent": 10.5,
+    "disability_prevalence_percent": 13.0,
+    "ethnic_diversity_index": 0.78,
+    "road_condition_index_percent_poor": 40.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Nasarawa",
+    "rural_residence_percent": 71.3,
+    "disability_prevalence_percent": 10.9,
+    "ethnic_diversity_index": 0.72,
+    "road_condition_index_percent_poor": 70.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Niger",
+    "rural_residence_percent": 75.6,
+    "disability_prevalence_percent": 11.3,
+    "ethnic_diversity_index": 0.62,
+    "road_condition_index_percent_poor": 68.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Ogun",
+    "rural_residence_percent": 38.9,
+    "disability_prevalence_percent": 12.6,
+    "ethnic_diversity_index": 0.40,
+    "road_condition_index_percent_poor": 52.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Ondo",
+    "rural_residence_percent": 52.7,
+    "disability_prevalence_percent": 10.7,
+    "ethnic_diversity_index": 0.35,
+    "road_condition_index_percent_poor": 55.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Osun",
+    "rural_residence_percent": 46.1,
+    "disability_prevalence_percent": 9.7,
+    "ethnic_diversity_index": 0.30,
+    "road_condition_index_percent_poor": 50.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Oyo",
+    "rural_residence_percent": 44.8,
+    "disability_prevalence_percent": 11.6,
+    "ethnic_diversity_index": 0.28,
+    "road_condition_index_percent_poor": 48.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Plateau",
+    "rural_residence_percent": 69.4,
+    "disability_prevalence_percent": 12.3,
+    "ethnic_diversity_index": 0.82,
+    "road_condition_index_percent_poor": 72.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Rivers",
+    "rural_residence_percent": 36.2,
+    "disability_prevalence_percent": 15.2,
+    "ethnic_diversity_index": 0.70,
+    "road_condition_index_percent_poor": 62.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Sokoto",
+    "rural_residence_percent": 88.1,
+    "disability_prevalence_percent": 7.9,
+    "ethnic_diversity_index": 0.12,
+    "road_condition_index_percent_poor": 85.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Taraba",
+    "rural_residence_percent": 77.8,
+    "disability_prevalence_percent": 11.9,
+    "ethnic_diversity_index": 0.75,
+    "road_condition_index_percent_poor": 76.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Yobe",
+    "rural_residence_percent": 84.3,
+    "disability_prevalence_percent": 8.2,
+    "ethnic_diversity_index": 0.22,
+    "road_condition_index_percent_poor": 82.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  },
+  {
+    "state": "Zamfara",
+    "rural_residence_percent": 86.7,
+    "disability_prevalence_percent": 9.1,
+    "ethnic_diversity_index": 0.16,
+    "road_condition_index_percent_poor": 80.0,
+    "sources": "NBS NLSS 2020; NDHS 2018; CIA Ethnic Dist.; FRSC Q4 2023"
+  }
+]

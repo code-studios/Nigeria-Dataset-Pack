@@ -1,0 +1,27 @@
+{
+  "k_impact": {
+    "k_15": {
+      "coverage": 62.16216216216216,
+      "network_length": 3616.6281301099953
+    },
+    "k_20": {
+      "coverage": 72.97297297297297,
+      "network_length": 4275.198751230186
+    },
+    "k_25": {
+      "coverage": 86.4864864864865,
+      "network_length": 4614.109467847398
+    }
+  },
+  "lambda_impact": {
+    "lambda_0.0": {
+      "redundancy": 1.0
+    },
+    "lambda_0.5": {
+      "redundancy": 1.0
+    },
+    "lambda_1.0": {
+      "redundancy": 1.0
+    }
+  }
+}

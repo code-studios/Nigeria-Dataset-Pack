@@ -1,0 +1,26 @@
+service_id,sequence,from,to,is_origin,is_destination
+HSR-001,1,Ikeja,Abeokuta,True,True
+HSR-002,1,Ikeja,Ibadan,True,True
+HSR-003,1,Ikeja,Ibadan,True,False
+HSR-003,2,Ibadan,Oshogbo,False,True
+HSR-004,1,Owerri,Port Harcourt,True,True
+HSR-005,1,Umuahia,Owerri,True,True
+HSR-006,1,Ikeja,Benin City,True,True
+HSR-007,1,Abeokuta,Ibadan,True,True
+HSR-008,1,Ikeja,Abeokuta,True,False
+HSR-008,2,Abeokuta,Oshogbo,False,False
+HSR-008,3,Oshogbo,Ilorin,False,True
+HSR-009,1,Ibadan,Oshogbo,True,True
+HSR-010,1,Ilorin,Oshogbo,True,True
+HSR-011,1,Uyo,Calabar,True,True
+HSR-012,1,Ikeja,Abeokuta,True,False
+HSR-012,2,Abeokuta,Oshogbo,False,False
+HSR-012,3,Oshogbo,Ondo,False,True
+HSR-013,1,Boji-Boji,Benin City,True,True
+HSR-014,1,Uyo,Owerri,True,False
+HSR-014,2,Owerri,Port Harcourt,False,True
+HSR-015,1,Ikeja,Abeokuta,True,False
+HSR-015,2,Abeokuta,Oshogbo,False,False
+HSR-015,3,Oshogbo,Ondo,False,False
+HSR-015,4,Ondo,Boji-Boji,False,False
+HSR-015,5,Boji-Boji,Owerri,False,True

@@ -1,0 +1,37 @@
+{
+  "project": "High-Speed Railway Station Placement in Nigeria",
+  "methodology": "Modified K-means with Penalty Term",
+  "scenarios_tested": 2,
+  "configurations_analyzed": 10,
+  "scenario1_complete_coverage": {
+    "stations": 37,
+    "network_length_km": 5105.8,
+    "coverage_pct": 100.0,
+    "redundant_pairs": 10,
+    "strength": "Maximum accessibility",
+    "weakness": "Higher cost, redundancy"
+  },
+  "scenario2_optimized": {
+    "best_k": 15,
+    "best_lambda": 0.0,
+    "network_length_km": 3616.6,
+    "coverage_pct": 62.2,
+    "redundant_pairs": 0,
+    "strength": "Cost-efficient, no redundancy",
+    "weakness": "Lower coverage"
+  },
+  "key_findings": [
+    "Scenario 1 provides complete coverage but with 10 redundant station pairs",
+    "Scenario 2 reduces network length by 29.2% but covers only 62.2% of capitals",
+    "Penalty term (\u03bb) successfully reduces redundancy from 2 to 0 pairs at k=25",
+    "All scenarios meet the 12-hour travel time threshold",
+    "High-congestion routes (Kaduna-Lagos, Benin-Kano) should be priority corridors"
+  ],
+  "recommendation": "Scenario 1 (Complete Coverage) recommended for political equity and maximum accessibility",
+  "files_generated": {
+    "processed_data": 15,
+    "result_files": 8,
+    "visualizations": 5,
+    "total": 28
+  }
+}

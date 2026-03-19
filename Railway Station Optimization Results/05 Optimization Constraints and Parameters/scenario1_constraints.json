@@ -1,0 +1,8 @@
+{
+  "k": 37,
+  "min_station_spacing_km": 80,
+  "max_single_route_time_hours": 4,
+  "objective": "minimize_total_network_length",
+  "description": "Every state capital has a station",
+  "coverage_target": 100.0
+}

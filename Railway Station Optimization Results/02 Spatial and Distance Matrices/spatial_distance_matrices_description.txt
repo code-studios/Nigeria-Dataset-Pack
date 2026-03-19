@@ -1,0 +1,59 @@
+================================================================
+  DATASET DESCRIPTION
+  Files   : distance_matrix.csv
+            hsr_time_matrix.csv
+            distance_type_matrix.csv
+  Group   : 02 — Spatial and Distance Matrices
+  Created : 2026-03-18  12:39:44
+================================================================
+
+TITLE
+  Nigeria State Capital Inter-City Distance and
+  High-Speed Rail Travel Time Matrices
+
+OVERVIEW
+  Three square 37×37 matrices capturing the spatial
+  relationships between all Nigerian state capitals. These
+  form the backbone of all network construction, demand
+  modelling, and optimization computations.
+
+HOW THEY WERE GENERATED
+  distance_matrix.csv
+    Computed using the Haversine formula (great-circle
+    distance) between WGS84 coordinates of each capital pair.
+    Where actual road distance data was available from the
+    nigeria_traffic_data source, those values were used;
+    remaining pairs were estimated geodetically.
+
+  hsr_time_matrix.csv
+    Derived from distance_matrix.csv assuming a constant
+    HSR operating speed of 250 km/h:
+      Travel_time (min) = Distance_km / 250 × 60
+    Does not include dwell time or acceleration factors.
+
+  distance_type_matrix.csv
+    A label matrix flagging each cell as:
+      "same"      — diagonal (same city)
+      "actual"    — distance sourced from traffic dataset
+      "estimated" — distance computed geodetically
+
+PURPOSE
+  Used to build the Minimum Spanning Tree (Scenario 1),
+  compute the OD gravity demand model, define functional
+  adjacency, and evaluate coverage in Scenario 2.
+
+VIEWING ORDER
+  Dataset #2 in sequence — review after master_dataset.csv.
+
+FILE FORMAT
+  CSV, UTF-8, 37×37 (index column = capital_city name)
+  All values in km (distance) or minutes (time).
+
+LICENCE
+  TRAMSYS LAB
+
+CONTACT / MAINTAINER
+  Eni Solomon Laughter - Chang'an University
+================================================================
+  END OF DESCRIPTION
+================================================================

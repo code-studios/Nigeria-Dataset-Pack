@@ -1,0 +1,57 @@
+================================================================
+  DATASET DESCRIPTION
+  Files   : train_service_design.json
+            train_service_patterns.csv
+  Group   : 08 — Train Service Design
+  Created : 2026-03-18  12:39:44
+================================================================
+
+TITLE
+  Scenario 2 — OD-Locked 3-Train Service Corridor Design
+  for the Optimized 15-Station Network
+
+OVERVIEW
+  OD-locked train service route design for three train
+  services operating on the Scenario 2 optimized 15-station
+  network. Each train is assigned a fixed origin-destination
+  pair with an explicit ordered station sequence.
+
+HOW THEY WERE GENERATED
+  Station paths were designed manually based on the MST
+  topology of the 15 selected stations, grouping geographically
+  contiguous stations into logical service corridors. The
+  "OD-locked" design means paths are fixed and do not use
+  inferred or interpolated routing — every stop is explicitly
+  specified. The forward_path field gives the ordered sequence
+  of stations from origin to destination.
+
+PURPOSE
+  Provides an operational service pattern for the recommended
+  15-station network, demonstrating feasibility of serving
+  the selected stations with 3 train services. Used to
+  generate the service corridor map visualization (OD.py).
+
+VIEWING ORDER
+  Dataset #8 — final dataset in the sequence. Review after
+  understanding the Scenario 2 station selection (Group 07).
+
+TRAIN SERVICE PATTERNS:
+  Train 1 : Umuahia → Enugu → Abuja → Birnin Kebbi
+  Train 2 : Chigo → Abuja → Funtua → Dutse → Damaturu → Hausari
+  Train 3 : Abeokuta → Oshogbo → Boji-Boji → Enugu → Abuja → Funtua → Bauchi → Gombe → Yola
+
+SCHEMA — train_service_design.json
+  Per train: origin, destination, forward_path (ordered list)
+
+SCHEMA — train_service_patterns.csv
+  Train            Train label (Train 1 / 2 / 3)
+  Station Sequence Ordered station stops (→ delimited)
+
+LICENCE
+  TRAMSYS LAB
+
+CONTACT / MAINTAINER
+  Eni Solomon Laughter - Chang'an University
+================================================================
+  END OF DESCRIPTION
+================================================================
